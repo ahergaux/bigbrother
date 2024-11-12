@@ -1,2 +1,0 @@
-# bigbrother
-SQL PROJECT - BIG BROTHER
