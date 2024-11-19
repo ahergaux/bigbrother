@@ -237,7 +237,6 @@ DECLARE
     i INTEGER;
     colonne_unique TEXT;
 BEGIN
-    -- Construire les colonnes de destination
     colonnes_destination := array_to_string(
         ARRAY(SELECT CASE
                       WHEN split_part(attributs_with_type[gs.i], ' ', 2) = 'text' THEN 'id_' || attributs[gs.i]
@@ -245,7 +244,6 @@ BEGIN
                    END
         FROM generate_subscripts(attributs_with_type, 1) AS gs(i)), ', ');
 
-    -- Construire les colonnes source
     colonnes_source := array_to_string(
         ARRAY(SELECT CASE
                       WHEN split_part(attributs_with_type[gs.i], ' ', 2) = 'text' THEN 'ref_' || attributs[gs.i] || '.id'
@@ -253,7 +251,6 @@ BEGIN
                    END
         FROM generate_subscripts(attributs_with_type, 1) AS gs(i)), ', ');
 
-    -- Construire les LEFT JOIN dynamiquement pour chaque colonne de référence
     FOR i IN 1 .. array_length(attributs_with_type, 1) LOOP
         IF split_part(attributs_with_type[i], ' ', 2) = 'text' THEN
             requete_joins := requete_joins || FORMAT(
@@ -263,7 +260,6 @@ BEGIN
         END IF;
     END LOOP;
 
-    -- Construire la clause UPDATE SET pour gérer les conflits
     update_set := array_to_string(
         ARRAY(SELECT FORMAT(
             '%s = COALESCE(EXCLUDED.%s, %I.%s)',
@@ -283,8 +279,7 @@ BEGIN
         )
         FROM generate_subscripts(attributs_with_type, 1) AS gs(i)), ', ');
 
-    -- Vérifier et ajouter une contrainte UNIQUE si nécessaire
-    colonne_unique := colonnes_destination; -- Colonnes utilisées pour la détection des conflits
+    colonne_unique := colonnes_destination; 
     PERFORM 1
     FROM pg_constraint
     WHERE conrelid = nom_table::regclass
@@ -300,22 +295,20 @@ BEGIN
         );
     END IF;
 
-    -- Construire la requête d'insertion avec jointures
     requete_insertion := FORMAT(
         'INSERT INTO %I (%s)
         SELECT %s
         FROM temp_table src %s
         ON CONFLICT (%s)
         DO UPDATE SET %s;',
-        nom_table,          -- Nom de la table cible
-        colonnes_destination, -- Colonnes de destination
-        colonnes_source,      -- Colonnes source
-        requete_joins,        -- Clauses LEFT JOIN
-        colonne_unique,       -- Colonnes de détection de conflit
-        update_set            -- Mise à jour des colonnes en cas de conflit
+        nom_table,        
+        colonnes_destination,
+        colonnes_source,  
+        requete_joins,    
+        colonne_unique,     
+        update_set           
     );
 
-    -- Exécuter la requête d'insertion
     EXECUTE requete_insertion;
 END;
 $$ LANGUAGE plpgsql;
