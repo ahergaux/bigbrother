@@ -1,0 +1,4 @@
+nom TEXT,prenom TEXT,adresse_mail TEXT,poste TEXT,debut DATE
+bernardin,paul,brnd74@gmail.com,chomeur,2024-11-08
+hergaux,alex,alherg@icloud.com,chef,2024-11-08
+fxc,fsd,zed,eds,2024-11-08
