@@ -1,0 +1,21 @@
+nom TEXT,banque TEXT,genre TEXT,solde INTEGER,creationCompte DATE
+Smith,BNP,Homme,50632,2015-08-12
+Johnson,SocieteGenerale,Femme,7541,2019-04-21
+Brown,CaisseEpargne,Homme,20319,2012-12-04
+Davis,CreditMutuel,Femme,43129,2007-05-09
+Miller,HSBC,Homme,87452,2021-11-25
+Mougnie,CreditMutuel,Femme,10238,1993-01-14
+Moore,HSBC,Autre,45012,2018-03-30
+Taylor,CaisseEpargne,Homme,5129,2020-09-17
+Anderson,CreditMutuel,Femme,61298,1956-06-20
+Thomas,BNP,Homme,89231,2014-10-02
+Jackson,SocieteGenerale,Femme,23984,2013-11-11
+Ubiparip,BanquePopulaire,Autre,74312,2022-07-19
+Harris,BanquePostale,Femme,50213,2023-03-05
+Martin,CaisseEpargne,Homme,48291,2019-12-13
+Pan,CaisseEpargne,Femme,61278,2008-08-22
+Garcia,BanquePostale,Homme,31284,2017-10-15
+Martinez,CreditMutuel,Femme,42913,2016-02-29
+Robinson,SocieteGenerale,Homme,54291,2021-04-07
+Clark,BNP,Femme,30129,2000-11-11
+Rodriguez,SocieteGenerale,Autre,71234,1985-06-23
