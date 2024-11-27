@@ -9,3 +9,5 @@
 \i fonctions/fonctionusless.sql
 \i structures/tablesdefinition.sql
 \i structures/tablesinitiale.sql
+\i structures/administration.sql
+\i data/init_data.sql
