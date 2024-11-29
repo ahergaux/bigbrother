@@ -1,9 +1,10 @@
 INSERT INTO PRENOM__REF (prenom) VALUES ('Alice'), ('Bob'), ('Clara'), ('David'), ('Emma'), ('François'), ('Gabriel'), ('Hugo'), ('Isabelle'), ('Jules'), ('Karine'), ('Léo'), ('Marie'), ('Nicolas'), ('Olivia'), ('Pierre'), ('Quentin'), ('Rita'), ('Sophie'), ('Thomas');
 
+SELECT normalize_table_content('prenom__ref');
 
-INSERT INTO attributs_identite (attributs) VALUES ('id_nom'),('id_prenom'),('date_naissance'),('id_ville_naissance'),('genre');
+INSERT INTO GENRE__REF (genre) VALUES ('hoMme'),('femme');
 
-INSERT INTO GENRE__REF (genre) VALUES ('homme'),('femme');
+SELECT normalize_table_content('genre__ref');
 
 INSERT INTO NOM__REF (nom) VALUES 
 ('Martin'),
@@ -27,7 +28,9 @@ INSERT INTO NOM__REF (nom) VALUES
 ('Noel'),
 ('Lucas');
 
-INSERT INTO VILLE__REF (nom) VALUES 
+SELECT normalize_table_content('nom__ref');
+
+INSERT INTO VILLE__REF (ville) VALUES 
 ('Paris'),
 ('Marseille'),
 ('Lyon'),
@@ -49,7 +52,9 @@ INSERT INTO VILLE__REF (nom) VALUES
 ('Nîmes'),
 ('Villeurbanne');
 
-INSERT INTO RUE__REF (nom, id_ville) VALUES 
+SELECT normalize_table_content('ville__ref');
+
+INSERT INTO RUE__REF (rue, id_ville) VALUES 
     
     ('Champs-Élysées', 1),
     ('Rue de Rivoli', 1),
@@ -126,9 +131,11 @@ INSERT INTO RUE__REF (nom, id_ville) VALUES
     ('Rue de Talleyrand', 11), 
     ('Rue de Paris', 12), ('Avenue Foch', 12), ('Boulevard de Strasbourg', 12), ('Place de l''Hotel de Ville', 12), ('Quai de la Réunion', 12), ('Avenue Georges Pompidou', 13), ('Rue de la République', 13), ('Place Jean Jaurès', 13), ('Rue Gambetta', 13), ('Boulevard Thiers', 13),('Place de la Liberté', 14), ('Avenue de la République', 14), ('Rue Jean Jaurès', 14), ('Boulevard de Strasbourg', 14), ('Quai du Commerce', 14),('Avenue Jean Perrot', 15), ('Boulevard Agutte Sembat', 15), ('Rue de la République', 15), ('Quai de la Dyle', 15), ('Place Victor Hugo', 15),('Rue de la Liberté', 16), ('Avenue Foch', 16), ('Boulevard de la République', 16), ('Rue du Faubourg Raines', 16), ('Rue des Godrans', 16),('Avenue Patton', 17), ('Boulevard de la Gare', 17), ('Place du Ralliement', 17), ('Rue des Lices', 17), ('Rue du Mail', 17),('Avenue Feuchères', 18), ('Boulevard de la Libération', 18), ('Rue de la Madeleine', 18), ('Rue des Marchands', 18), ('Place d''Assas', 18),('Cours Emile Zola', 19), ('Avenue Henri Barbusse', 19), ('Place Charles Hernu', 19), ('Rue du 8 Mai 1945', 19), ('Boulevard de la République', 19);
 
-
+SELECT normalize_table_content('rue__ref');
 
 INSERT INTO ADRESSE__REF (numero, id_rue, id_ville) VALUES (10, 1, 1), (5, 2, 1), (12, 6, 2), (3, 7, 2), (25, 9, 3), (30, 10, 3), (15, 13, 4), (7, 14, 4), (20, 16, 5), (14, 17, 5), (8, 19, 6), (16, 20, 6), (10, 22, 7), (12, 23, 7), (28, 25, 8), (35, 26, 8), (50, 28, 9), (40, 29, 9), (5, 31, 10), (25, 32, 10), (11, 34, 11), (8, 35, 11), (22, 37, 12), (9, 38, 12), (5, 40, 13), (15, 41, 13), (30, 43, 14), (20, 44, 14), (18, 46, 15), (14, 47, 15), (12, 49, 16), (21, 50, 16), (2, 52, 17), (8, 53, 17), (9, 55, 18), (27, 56, 18), (10, 58, 19), (12, 59, 19);
+
+SELECT normalize_table_content('adresse__ref');
 
 INSERT INTO PERSONNE (id_nom, id_prenom, date_naissance, id_ville_naissance, id_genre) VALUES 
     (1, 2, '1990-05-15 00:00:00', 1, 1),

@@ -1,0 +1,201 @@
+id_student INTEGER,INE TEXT,nom TEXT,prenom TEXT,genre TEXT,date_naissance DATE,adresse TEXT,niveau_scolaire TEXT,region TEXT,nom_etablissement TEXT,mention_diplome TEXT,diplome TEXT,parcours_scolaire TEXT
+6400,FLOAZ1RO03C,Brunet,Patrick,Homme,2017-01-14,"1, chemin de Peron, Faivre-les-Bains",Lycée,Hauts-de-France,Hoarau Lycée,Très bien,Baccalauréat général,Parcours général
+2520,U7MYOW8DT8C,Ribeiro,Chantal,Femme,2004-05-05,"195, boulevard Benoît Le Goff, Sainte Michelle",Lycée,Hauts-de-France,Perrier Lycée,Assez bien,Baccalauréat professionnel,Parcours général
+6380,T8XKODYR5PG,Traore,Gabriel,Homme,2016-07-24,"50, chemin de Millet, Bouvet",Collège,Hauts-de-France,Noël S.A.R.L. Collège,Sans mention,Brevet des collèges,Parcours général
+9657,9IN2XR838AM,Martel,Gilles,Femme,2010-08-08,"185, chemin Laurence Michaud, Paul",Collège,Occitanie,Carre et Fils Collège,Sans mention,Brevet des collèges,Parcours général
+2585,E3YQY5FU7BF,Aubert,Georges,Homme,2010-01-20,"121, rue de Bertin, Mercier",Université,Île-de-France,Collet Université,Assez bien,Baccalauréat général,Droit et sciences politiques
+9425,GBL2QGV3DR2,Aubert,Roland,Homme,2012-11-15,"17, boulevard Rey, Arnaud-sur-Mer",Collège,Occitanie,Allard Collège,Sans mention,Brevet des collèges,Parcours général
+9673,M40OEYTL8HB,Pinto,Roland,Homme,2014-02-20,"86, boulevard Rivière, Ollivier",Collège,Île-de-France,Marin Collège,Sans mention,Brevet des collèges,Parcours général
+3677,J1GNFIUE2WN,Bodin,Georges,Homme,1996-01-14,"5, chemin Émile Deschamps, Sainte Thibault",Lycée,Île-de-France,Descamps Lycée,Passable,Baccalauréat général,Parcours général
+9849,GDX5O31YHXS,Jacquot,Georges,Femme,2015-04-28,"62, avenue de Pascal, Gosselin",Collège,Provence-Alpes-Côte d'Azur,Buisson SARL Collège,Sans mention,Brevet des collèges,Parcours général
+9435,YVZWD3KPUG9,Dufour,Hélène,Homme,1998-02-21,"159, avenue de Brunel, GrenierVille",Lycée,Provence-Alpes-Côte d'Azur,Dijoux Lycée,Sans mention,Baccalauréat professionnel,Parcours général
+2595,QWHBEF46RF7,Guillaume,Danielle,Homme,2010-12-07,"166, rue de Meunier, Raynaud-la-Forêt",Lycée,Nouvelle-Aquitaine,Thierry S.A.R.L. Lycée,Assez bien,Licence,Parcours général
+1032,JW6QDBTFBSC,Laurent,Juliette,Homme,2018-06-01,"185, chemin Édith Louis, Raymond",Lycée,Provence-Alpes-Côte d'Azur,Chartier Lycée,Sans mention,BTS,Parcours général
+6557,P06IDIIOH6C,Devaux,Michelle,Femme,2017-12-18,"14, chemin Alix Jean, Mercier",Lycée,Auvergne-Rhône-Alpes,Denis Giraud S.A. Lycée,Assez bien,Master,Parcours général
+6881,QNEZW9HEYCE,Rodrigues,Bernard,Femme,1995-03-14,"118, avenue Paulette Dubois, Dos Santos",Lycée,Auvergne-Rhône-Alpes,Barre Joly SARL Lycée,Bien,Baccalauréat professionnel,Parcours général
+6420,5V2WWG84D4R,Le Goff,Élodie,Homme,2011-10-09,"152, avenue Julie Jacquet, Pires",Lycée,Occitanie,Lévêque Bertrand et Fils Lycée,Bien,Baccalauréat général,Parcours général
+5112,00ILU6VFUA9,Bernier,Paul,Homme,2011-03-12,"121, rue Boulay, Petit",Université,Provence-Alpes-Côte d'Azur,Charles Université,Très bien,Master,Sciences et technologies
+6709,O3ZDRC1YOHM,Da Silva,Gilbert,Homme,1999-09-01,"166, rue de Étienne, Sainte Danielle",Collège,Île-de-France,Fouquet SA Collège,Sans mention,Brevet des collèges,Parcours général
+2071,RKZ40AQ15O2,Baron,Gilles,Femme,2011-10-10,"161, rue de Sauvage, Guyon",Lycée,Hauts-de-France,Besnard Parent et Fils Lycée,Passable,Baccalauréat général,Parcours général
+2792,NYTK1ZWUHYW,Mercier,Renée,Femme,2014-07-31,"189, rue Thibault, Bigot",Collège,Provence-Alpes-Côte d'Azur,Paul Collège,Sans mention,Brevet des collèges,Parcours général
+1054,8Y5DNWNGUCZ,Pelletier,Élodie,Homme,2012-06-06,"36, avenue de Raynaud, Saint PierreBourg",Lycée,Auvergne-Rhône-Alpes,Delannoy S.A.S. Lycée,Sans mention,Baccalauréat général,Parcours général
+9956,X015Z11L6SP,Lesage,Julie,Homme,2016-11-03,"17, rue Lucie Perrot, Saint Michelleboeuf",Lycée,Nouvelle-Aquitaine,Vincent Dufour S.A.R.L. Lycée,Très bien,Licence,Parcours général
+5702,S3QT36QNYY9,Maillard,Denis,Homme,2006-12-06,"49, avenue Agathe Vasseur, Bonneau-sur-Albert",Lycée,Île-de-France,Hamel Lycée,Passable,Licence,Parcours général
+2544,6K8DJZR5SWK,Menard,Robert,Homme,2000-10-21,"122, chemin de Joly, Sainte Anne",Lycée,Occitanie,Hernandez Lycée,Très bien,Baccalauréat général,Parcours général
+9623,KC5I8XOMXLV,Devaux,Guillaume,Femme,2001-05-27,"118, rue de Descamps, Léger",Lycée,Provence-Alpes-Côte d'Azur,Lemoine SARL Lycée,Assez bien,BTS,Parcours général
+7516,GJR81BMQF7Z,Marin,Luce,Femme,1996-10-12,"47, avenue Émile David, Saint Madeleine",Collège,Hauts-de-France,Deschamps Collège,Sans mention,Brevet des collèges,Parcours général
+2812,YXFIBLEJGUB,Vidal,Nicolas,Femme,1999-02-17,"89, avenue Chrétien, Deschamps-sur-Bertrand",Collège,Nouvelle-Aquitaine,Gilles S.A.R.L. Collège,Sans mention,Brevet des collèges,Parcours général
+6930,Q9TEA7187F8,Marchand,Anne,Femme,2018-08-07,"166, boulevard Michel, Dos Santos",Université,Nouvelle-Aquitaine,Leleu Université,Bien,Master,Enseignement
+1219,Y207MERBYEA,Maury,Auguste,Homme,1995-05-24,"115, boulevard de Guillaume, Blondel-la-Forêt",Lycée,Île-de-France,Fischer et Fils Lycée,Bien,Baccalauréat général,Parcours général
+9483,VHS21HD4Y89,Rocher,Nicolas,Femme,2011-11-30,"50, chemin Agnès Turpin, Bruneau",Lycée,Nouvelle-Aquitaine,Da Costa Lycée,Sans mention,Master,Parcours général
+3327,SCYOZPNAMLQ,Valette,Jules,Homme,2011-03-12,"56, rue Alice Charles, Didier",Université,Occitanie,Perrier S.A. Université,Très bien,BTS,Architecture
+6674,F060O4VFK9S,Renault,Guillaume,Femme,2001-04-20,"17, chemin Anne Monnier, Lopez-la-Forêt",Université,Occitanie,Fournier et Fils Université,Passable,Licence,Lettres et arts
+9355,WJGQU6H3KR3,Faure,Agnès,Femme,2007-10-02,"150, rue de Joubert, Lévêqueboeuf",Lycée,Occitanie,Diaz Lycée,Sans mention,Licence,Parcours général
+7406,I2FKXWEXKG6,Bouvier,Renée,Homme,2007-11-29,"8, rue Laure Lenoir, Jean-sur-Navarro",Collège,Nouvelle-Aquitaine,Pires Collège,Sans mention,Brevet des collèges,Parcours général
+6261,R8VNRPJY93N,Texier,Jacques,Homme,2003-01-03,"67, boulevard Garcia, Reynaud-sur-Meunier",Collège,Provence-Alpes-Côte d'Azur,Jourdan Collège,Sans mention,Brevet des collèges,Parcours général
+9038,CL5EFJP6MKT,Barre,Geneviève,Homme,2013-07-10,"132, boulevard Emmanuel De Oliveira, Chrétien-sur-Laine",Collège,Hauts-de-France,Daniel SA Collège,Sans mention,Brevet des collèges,Parcours général
+1928,GD1T53YKYYD,Reynaud,Céline,Femme,1996-10-03,"37, boulevard de Rousset, Massonboeuf",Collège,Auvergne-Rhône-Alpes,Gérard SA Collège,Sans mention,Brevet des collèges,Parcours général
+5418,SNRM6DFHG6W,Joly,Marthe,Homme,1995-08-10,"107, rue de Descamps, BergerVille",Lycée,Île-de-France,Roussel SARL Lycée,Passable,Baccalauréat professionnel,Parcours général
+3305,7RLN36V1MZB,Labbé,Jeannine,Homme,1996-02-10,"57, rue Maurice Julien, Legrosboeuf",Collège,Hauts-de-France,Regnier Collège,Sans mention,Brevet des collèges,Parcours général
+7372,FIEECY2C11B,Bousquet,Marie,Homme,2011-08-13,"9, boulevard de Bouvet, Delahaye",Université,Provence-Alpes-Côte d'Azur,Hoareau Blot S.A.R.L. Université,Très bien,Baccalauréat général,Sciences et technologies
+5840,6BKADEVVHYB,Regnier,Capucine,Homme,2009-08-02,"192, boulevard de Legendre, Nguyen-les-Bains",Lycée,Provence-Alpes-Côte d'Azur,Lemoine Lebon et Fils Lycée,Bien,BTS,Parcours général
+3304,FS0IUDUAHGK,Faivre,Nicolas,Homme,1997-09-18,"186, chemin Carre, Lebreton-sur-Adam",Collège,Auvergne-Rhône-Alpes,Lemaître Collège,Sans mention,Brevet des collèges,Parcours général
+5292,74RZGYD49PS,Bonneau,Richard,Femme,2008-07-11,"29, boulevard Michelle Vidal, LacombeBourg",Lycée,Île-de-France,Regnier Lycée,Très bien,Baccalauréat général,Parcours général
+5095,SRNKZCRNQ0Y,Pruvost,Hortense,Femme,2014-05-24,"58, avenue de Petit, MauryBourg",Université,Occitanie,Thibault S.A. Université,Très bien,Baccalauréat professionnel,Médecine et santé
+2442,4627NAYYOSY,Sauvage,Patricia,Homme,1999-02-22,"37, chemin Susan Baudry, Lacombe-sur-Martin",Lycée,Occitanie,Dupré Rey S.A.S. Lycée,Sans mention,Baccalauréat général,Parcours général
+7401,06GNHH4OIPR,Boyer,Valérie,Femme,2009-09-29,"194, boulevard Boyer, Baron-les-Bains",Université,Occitanie,Launay S.A.R.L. Université,Très bien,Master,Informatique
+4616,89SFQERI7B0,Colin,Joseph,Homme,1998-09-29,"128, rue Maggie Royer, LaineVille",Université,Île-de-France,Schmitt Université,Très bien,Master,Économie et gestion
+7209,YFWDC112HXR,Diaz,Suzanne,Femme,2006-01-15,"139, rue de Lemaire, Sainte Hortenseboeuf",Lycée,Provence-Alpes-Côte d'Azur,Monnier Lycée,Sans mention,Baccalauréat général,Parcours général
+7954,8BP6NLNQBU4,Pages,Arnaude,Femme,2011-04-26,"181, boulevard Besson, Marty",Collège,Occitanie,Baudry Collège,Sans mention,Brevet des collèges,Parcours général
+1992,PLO1URTTQUF,Raynaud,Roland,Homme,2009-11-27,"101, chemin de Huet, JolyBourg",Lycée,Occitanie,Nicolas Jacquot et Fils Lycée,Sans mention,Licence,Parcours général
+3595,WM9LBB4M0A6,Garcia,Maggie,Femme,2017-08-06,"98, avenue Tristan Leroux, Lefebvre",Collège,Occitanie,Godard Collège,Sans mention,Brevet des collèges,Parcours général
+3452,MMMXIXV6CKM,Roussel,Geneviève,Homme,1997-10-06,"138, rue Nicolas, Legrand",Lycée,Île-de-France,Gillet Lycée,Très bien,Licence,Parcours général
+8034,U6JZV9NOU3D,Lombard,Christine,Homme,2005-11-13,"87, boulevard Caroline Boutin, Voisin",Lycée,Provence-Alpes-Côte d'Azur,Sauvage SARL Lycée,Bien,Baccalauréat professionnel,Parcours général
+3975,WNPR424TKB9,Ribeiro,Laure,Femme,2015-12-25,"58, rue Lévy, Guichard",Université,Hauts-de-France,Bailly Université,Sans mention,Baccalauréat général,Lettres et arts
+3970,VJUTPMC3SKX,Martins,Jeanne,Femme,1996-05-19,"52, boulevard de Lejeune, Sainte Benjamin-les-Bains",Lycée,Occitanie,Foucher Robert SA Lycée,Bien,Master,Parcours général
+6192,SYT5WSGRX37,Voisin,Clémence,Femme,2005-07-06,"164, chemin Thierry, Saint Aurore",Université,Provence-Alpes-Côte d'Azur,Jacquot Université,Sans mention,Baccalauréat général,Architecture
+8933,SNFFYKPL3CH,Wagner,Astrid,Femme,2017-12-05,"69, rue Ferreira, Sainte Julien",Lycée,Hauts-de-France,Toussaint Boulanger et Fils Lycée,Assez bien,BTS,Parcours général
+6567,YIIFA2LR9P6,Clément,Julien,Homme,2017-01-31,"41, chemin de Joseph, Bourgeois",Lycée,Auvergne-Rhône-Alpes,Bernard Lycée,Passable,BTS,Parcours général
+3625,2JTXB02B6LK,Breton,Gérard,Homme,2006-12-29,"105, rue de Bonnet, Laine-sur-Collin",Lycée,Hauts-de-France,Martel S.A. Lycée,Passable,Licence,Parcours général
+4124,70FE07S387J,Pires,Thibault,Homme,2013-10-18,"61, boulevard Poirier, Legros",Université,Île-de-France,Lesage Université,Bien,Master,Informatique
+3579,0307HDHJO5C,Hoareau,Gabriel,Femme,2015-02-07,"180, rue Cécile Rolland, Fischerdan",Collège,Nouvelle-Aquitaine,Lemaître Pascal SA Collège,Sans mention,Brevet des collèges,Parcours général
+7480,TRIJ2FRNLX6,Charrier,François,Homme,2015-03-03,"190, rue de Joubert, Bruneau-les-Bains",Université,Île-de-France,Mathieu Garcia S.A. Université,Bien,Master,Droit et sciences politiques
+8589,NXZ6YTIPA87,Duval,Pauline,Femme,2012-12-23,"78, chemin Arnaude Carpentier, François",Collège,Auvergne-Rhône-Alpes,Lesage Weiss SARL Collège,Sans mention,Brevet des collèges,Parcours général
+3517,K4FPL3X2JC2,Charpentier,Dominique,Femme,2016-10-31,"121, rue Adrien Barthelemy, Saint Danielle",Université,Occitanie,Navarro Université,Très bien,Baccalauréat général,Informatique
+4964,3ZSMV30QABX,Mendès,Clémence,Femme,1995-12-04,"165, chemin de Georges, Guillot",Collège,Île-de-France,Fernandes Salmon S.A.S. Collège,Sans mention,Brevet des collèges,Parcours général
+1592,OWLCFS8314Y,Arnaud,Marie,Femme,2011-02-20,"116, rue de Gomez, Guillaume",Lycée,Hauts-de-France,Adam Lycée,Assez bien,BTS,Parcours général
+6549,GVLKDNON4UA,Ramos,Manon,Homme,2012-08-15,"143, chemin de Teixeira, Charrier",Université,Provence-Alpes-Côte d'Azur,Devaux Université,Passable,Licence,Droit et sciences politiques
+1371,HZGOPJDN8EZ,Peltier,Eugène,Femme,2013-06-02,"198, boulevard Garcia, Dos Santos-sur-Maillot",Lycée,Hauts-de-France,Chauvet Lycée,Très bien,Baccalauréat général,Parcours général
+7032,IH83J0NPHH3,Meyer,Philippine,Homme,2003-09-28,"108, chemin Isaac Techer, BriandBourg",Collège,Occitanie,Barbier S.A.R.L. Collège,Sans mention,Brevet des collèges,Parcours général
+6131,2B9IQIUXDQ5,Lombard,Benoît,Femme,2002-02-24,"176, rue Noël Roussel, Delorme",Collège,Hauts-de-France,Allain Barre S.A.R.L. Collège,Sans mention,Brevet des collèges,Parcours général
+3961,NPVCUB7QMVY,Boyer,Antoinette,Homme,2016-04-26,"2, chemin Philippine Guibert, Joly-sur-Pichon",Lycée,Provence-Alpes-Côte d'Azur,Marty Lycée,Sans mention,Licence,Parcours général
+9229,KON8UUJS75E,Dijoux,Bertrand,Femme,2013-08-30,"182, chemin de Rolland, Roche",Université,Occitanie,Delorme Lemonnier SARL Université,Bien,Baccalauréat général,Économie et gestion
+7981,L9R9KMP6J37,Valette,Tristan,Femme,1994-08-10,"112, chemin Matthieu Carlier, Schneider-les-Bains",Collège,Nouvelle-Aquitaine,Toussaint Dufour S.A. Collège,Sans mention,Brevet des collèges,Parcours général
+2899,0R8U7WPGBGQ,Masson,Joseph,Homme,2010-03-21,"181, rue Gonzalez, Lévy",Lycée,Occitanie,Richard Imbert S.A.S. Lycée,Passable,Licence,Parcours général
+5458,BMZRR45ED5G,Besnard,Gérard,Homme,2001-12-02,"192, rue Julien, Sainte Hortenseboeuf",Université,Nouvelle-Aquitaine,Bazin Université,Sans mention,Baccalauréat général,Droit et sciences politiques
+8190,SUOC1Y5AYYO,Neveu,Édouard,Homme,2004-08-09,"83, boulevard Jacques Gomez, Albert-la-Forêt",Collège,Île-de-France,Pruvost Martin et Fils Collège,Sans mention,Brevet des collèges,Parcours général
+6341,C3XQ8VA8X8L,Lambert,Frédérique,Homme,1999-04-15,"55, chemin de Jean, Saint Antoine-la-Forêt",Collège,Hauts-de-France,Merle Collège,Sans mention,Brevet des collèges,Parcours général
+1958,K20TVDJI1OA,Benoit,Caroline,Homme,2011-05-11,"42, rue de Laporte, Blanc",Lycée,Occitanie,Boulanger Lycée,Bien,Baccalauréat professionnel,Parcours général
+5684,ERP3LYEX3SR,Delannoy,Thibault,Femme,2016-11-17,"122, rue Guillaume, Sainte GillesVille",Lycée,Provence-Alpes-Côte d'Azur,Giraud Lycée,Sans mention,Licence,Parcours général
+8699,DPNGWDS9YXZ,Maillot,Margot,Femme,2013-02-12,"135, chemin Thierry Munoz, Saint Jeanne-sur-Mer",Université,Hauts-de-France,Jean Université,Bien,Licence,Lettres et arts
+9348,P6RFE64SKBC,Martinez,Richard,Homme,2014-08-29,"132, rue de Dupré, Grondin",Collège,Provence-Alpes-Côte d'Azur,Albert Ramos SARL Collège,Sans mention,Brevet des collèges,Parcours général
+6559,PDXUJJCSEXG,Blanchet,Suzanne,Homme,2016-12-08,"101, chemin Bègue, Perret",Collège,Île-de-France,Renard et Fils Collège,Sans mention,Brevet des collèges,Parcours général
+4814,OZL01Q3M73H,Lamy,Valentine,Homme,2004-10-21,"192, chemin Da Costa, Foucherboeuf",Université,Nouvelle-Aquitaine,Maillot Université,Très bien,Master,Lettres et arts
+8349,AOAXQOX00K3,Lombard,René,Femme,1999-04-02,"177, boulevard de Lemaître, Sainte Éléonore",Université,Hauts-de-France,Marchal Université,Bien,Baccalauréat général,Architecture
+5111,EAEA84HXXPW,Delahaye,Noémi,Homme,1998-08-16,"23, rue Dorothée Hubert, Payetdan",Lycée,Occitanie,Gaillard Breton S.A.R.L. Lycée,Assez bien,Licence,Parcours général
+2952,PE60QRAQIK3,Raynaud,Adrien,Femme,1996-08-03,"14, rue Jeanne Hamel, Nguyen-sur-Normand",Lycée,Île-de-France,Bouvier Lycée,Passable,Licence,Parcours général
+5176,940VTKRRVWY,Daniel,Léon,Femme,2005-02-22,"60, rue Lévêque, Maréchal",Université,Île-de-France,Vallet Blin S.A. Université,Très bien,Master,Sciences et technologies
+8706,LC6PRR7MZAK,Techer,Étienne,Homme,2004-11-29,"121, rue Margaud Vidal, Bertrand",Lycée,Occitanie,Coste Lycée,Assez bien,Master,Parcours général
+8487,H6MV4XEKZ83,Letellier,Thierry,Femme,2016-01-31,"121, chemin Michaud, Guilbertboeuf",Collège,Provence-Alpes-Côte d'Azur,Antoine Collège,Sans mention,Brevet des collèges,Parcours général
+5344,HYDRGFR27RI,Barbier,Claude,Homme,1995-10-29,"5, chemin de Guibert, Maréchal-sur-Carlier",Lycée,Nouvelle-Aquitaine,Berger S.A.R.L. Lycée,Bien,Baccalauréat professionnel,Parcours général
+9256,G4S3MEIUR92,Moreno,Marianne,Homme,1995-04-22,"198, avenue Isabelle Lemoine, Barthelemy-les-Bains",Université,Nouvelle-Aquitaine,Bouvet Université,Sans mention,Master,Économie et gestion
+1387,YZ7PQ4DDV28,Rey,Louis,Homme,1995-02-07,"130, rue Hugues Devaux, Lefortboeuf",Collège,Auvergne-Rhône-Alpes,Aubry Bouchet SARL Collège,Sans mention,Brevet des collèges,Parcours général
+4558,W56FKPS0DXM,Clément,Paulette,Homme,2013-10-31,"32, rue de Leconte, Hoarau",Collège,Occitanie,Dubois Rodrigues et Fils Collège,Sans mention,Brevet des collèges,Parcours général
+9791,81A4RKGJZOW,Deschamps,Olivier,Homme,2003-09-07,"39, chemin Philippe Raynaud, Saint Alain",Université,Occitanie,Ramos et Fils Université,Assez bien,Licence,Droit et sciences politiques
+7653,OOQ42NBFA37,Étienne,Rémy,Homme,1999-06-28,"87, chemin Noël, De Sousanec",Lycée,Occitanie,Descamps SARL Lycée,Assez bien,Licence,Parcours général
+8374,C1XX6CWZXSK,Berger,Louise,Femme,1997-03-26,"175, chemin Benoit, Guyot",Université,Provence-Alpes-Côte d'Azur,Bigot Bonneau SA Université,Bien,BTS,Médecine et santé
+6938,AKT7ZQHT2XZ,Lemaire,Geneviève,Femme,2003-10-13,"199, chemin Charrier, Marion",Collège,Nouvelle-Aquitaine,Guillaume SARL Collège,Sans mention,Brevet des collèges,Parcours général
+3012,DTOZ5STHSLM,Perret,Georges,Homme,2009-11-14,"6, boulevard de Deschamps, Cousin",Collège,Provence-Alpes-Côte d'Azur,Perrot Pruvost S.A.R.L. Collège,Sans mention,Brevet des collèges,Parcours général
+4996,VI109DCNWMB,Allain,Andrée,Homme,1995-04-14,"115, chemin Valérie Fabre, Blanc",Lycée,Provence-Alpes-Côte d'Azur,Paris Lycée,Passable,Licence,Parcours général
+6595,MI0UZ7X4IKY,Delattre,Raymond,Homme,2011-08-11,"183, rue de Leroux, CharrierVille",Lycée,Provence-Alpes-Côte d'Azur,Garcia Jacques SARL Lycée,Assez bien,Baccalauréat général,Parcours général
+8831,LU3NDZ3CC5R,Boyer,Suzanne,Femme,1996-01-24,"20, rue de Meyer, Pichon",Lycée,Hauts-de-France,Hoarau Lycée,Sans mention,Licence,Parcours général
+9900,VSOJRPP7R93,Joseph,Marguerite,Homme,1997-04-29,"130, avenue de Richard, Breton",Collège,Occitanie,Rodrigues Collège,Sans mention,Brevet des collèges,Parcours général
+7913,ZEZ5EHR07N8,Torres,Julie,Femme,1994-02-04,"29, boulevard Lebrun, Da Costa",Collège,Nouvelle-Aquitaine,Marchal Carlier S.A.S. Collège,Sans mention,Brevet des collèges,Parcours général
+5142,UBFN9KR2FVB,Benoit,Henri,Femme,2002-03-04,"73, rue David Gomez, Sainte Claude",Collège,Auvergne-Rhône-Alpes,Robert Collège,Sans mention,Brevet des collèges,Parcours général
+2778,3REM5PUU62R,Leroy,Marianne,Homme,2007-02-15,"196, avenue de Gomes, Merle-sur-Masse",Collège,Provence-Alpes-Côte d'Azur,Hoareau Auger SA Collège,Sans mention,Brevet des collèges,Parcours général
+3856,W1YF0DWWN6M,Martineau,Guillaume,Homme,2010-05-03,"172, boulevard Baron, Fleury",Lycée,Hauts-de-France,Marques et Fils Lycée,Bien,Baccalauréat général,Parcours général
+6179,5ZU2ZUEUGWU,Da Costa,Laetitia,Homme,2014-02-06,"146, rue Agathe Julien, Cohen",Université,Auvergne-Rhône-Alpes,Ledoux Université,Sans mention,Baccalauréat général,Enseignement
+4807,E7GA2IZ5P3V,Carre,Jean,Femme,2010-05-04,"151, chemin Robert, Sainte Marcelleboeuf",Collège,Occitanie,Bègue S.A. Collège,Sans mention,Brevet des collèges,Parcours général
+6594,5APO4LJEDGF,Lefèvre,Anaïs,Femme,2016-05-23,"197, rue de Albert, Allard",Collège,Auvergne-Rhône-Alpes,Lebon Lenoir S.A. Collège,Sans mention,Brevet des collèges,Parcours général
+4103,LOGWLACOLOL,Monnier,Marc,Femme,2016-05-29,"31, rue Agnès Blot, Lemoine-sur-Munoz",Collège,Auvergne-Rhône-Alpes,Guérin Collège,Sans mention,Brevet des collèges,Parcours général
+1420,IVISS8JLTCB,Lombard,Jacques,Homme,2018-10-20,"5, boulevard de Philippe, Perrier-la-Forêt",Lycée,Provence-Alpes-Côte d'Azur,Paul Masse SA Lycée,Sans mention,Baccalauréat général,Parcours général
+8051,IT2KODWH8N9,Leconte,Maryse,Homme,2005-02-01,"138, chemin de Lacroix, Parent",Lycée,Provence-Alpes-Côte d'Azur,Blot et Fils Lycée,Très bien,Baccalauréat général,Parcours général
+4000,AQ3K8A7RV4N,Lagarde,Noël,Femme,2001-11-16,"162, rue Pruvost, Texier-sur-Robin",Collège,Provence-Alpes-Côte d'Azur,De Oliveira Collège,Sans mention,Brevet des collèges,Parcours général
+9821,4KFTCDZ3095,Thomas,Luc,Homme,2008-05-18,"157, avenue Leduc, Saint Jacqueline",Université,Nouvelle-Aquitaine,Étienne S.A.R.L. Université,Bien,Licence,Informatique
+2814,JXLH8L6E7VA,Loiseau,Madeleine,Homme,2010-04-13,"173, boulevard Lambert, BouvetBourg",Collège,Occitanie,Duhamel Chevalier SARL Collège,Sans mention,Brevet des collèges,Parcours général
+3267,UZROC5XT63Q,Perrin,Laurence,Homme,2011-11-26,"91, avenue Claude Hardy, Dias",Lycée,Provence-Alpes-Côte d'Azur,Michel Guillon S.A. Lycée,Bien,Licence,Parcours général
+2061,G1ZAQ7QHAK7,Meyer,Jacques,Femme,2005-11-14,"50, boulevard Gilbert, Faure",Collège,Provence-Alpes-Côte d'Azur,Navarro Collège,Sans mention,Brevet des collèges,Parcours général
+9783,W3H98BRZVA9,Garnier,Corinne,Femme,2010-09-05,"29, avenue de Maury, Sainte Antoinettedan",Lycée,Provence-Alpes-Côte d'Azur,Olivier S.A.R.L. Lycée,Sans mention,Licence,Parcours général
+1016,GG0YVGV0E74,Chevallier,Théophile,Femme,2002-08-29,"50, rue Pierre, Hubert",Université,Île-de-France,Michel SARL Université,Sans mention,Licence,Médecine et santé
+7248,APYX4L4OESR,Bigot,Étienne,Homme,2012-12-24,"185, boulevard Alice Fischer, Nguyen",Collège,Île-de-France,Parent Collège,Sans mention,Brevet des collèges,Parcours général
+9627,KPQAHCUA09P,Martel,Marc,Homme,2013-02-09,"64, rue Clémence Cousin, Laurent",Collège,Auvergne-Rhône-Alpes,Rémy Collège,Sans mention,Brevet des collèges,Parcours général
+6516,LCWBPA274IR,Da Silva,Anaïs,Femme,2016-10-11,"14, rue de Besnard, Poulaindan",Lycée,Provence-Alpes-Côte d'Azur,Pons et Fils Lycée,Assez bien,Baccalauréat général,Parcours général
+5768,1W1WUDCBL4C,Moreau,Julien,Homme,1997-04-18,"16, rue Jacqueline Morin, Maillotdan",Lycée,Île-de-France,Le Roux Lycée,Bien,Master,Parcours général
+9063,WCYUKND1IVX,Allain,Joseph,Homme,2012-09-13,"117, rue de Besson, Pierre-sur-Mer",Lycée,Occitanie,Leclerc Charrier S.A.R.L. Lycée,Très bien,Master,Parcours général
+7824,WM72QLGDVC2,Weiss,Capucine,Homme,2007-01-04,"147, rue de Boulay, Godard",Collège,Hauts-de-France,Leroy Guillaume SARL Collège,Sans mention,Brevet des collèges,Parcours général
+4158,SMRWGEBEVSX,De Oliveira,Julie,Femme,2015-12-30,"80, chemin Barthelemy, Perrier",Université,Provence-Alpes-Côte d'Azur,Baron Monnier SA Université,Assez bien,Licence,Économie et gestion
+5228,LMNAVYCS44P,Prévost,Jacqueline,Homme,2003-11-19,"52, boulevard Lefèvre, Hoarau",Université,Auvergne-Rhône-Alpes,Wagner Reynaud SA Université,Bien,Baccalauréat professionnel,Lettres et arts
+4036,YZ9VLU8WPFQ,Pereira,Timothée,Homme,2006-08-16,"127, chemin Fernandes, Saint Bertrandnec",Collège,Île-de-France,Muller Collège,Sans mention,Brevet des collèges,Parcours général
+1457,WYQHR133NO3,Arnaud,Guillaume,Homme,1994-01-16,"93, chemin de Fernandez, Baron-sur-Boutin",Collège,Île-de-France,Seguin Collège,Sans mention,Brevet des collèges,Parcours général
+3654,MTFPW6M9HKH,Marchal,Franck,Femme,1998-05-16,"185, boulevard de Delaunay, Lelièvre",Collège,Nouvelle-Aquitaine,Andre S.A.R.L. Collège,Sans mention,Brevet des collèges,Parcours général
+9317,4IHGJD3EX5M,Dupuy,Alexandre,Homme,2017-03-11,"79, rue de Schmitt, Guibert",Lycée,Auvergne-Rhône-Alpes,Charles Lycée,Bien,BTS,Parcours général
+2732,X79955CF72G,Delorme,Raymond,Femme,2009-05-19,"178, boulevard de Martel, Sainte Nathalie",Lycée,Nouvelle-Aquitaine,Ramos Lycée,Sans mention,Licence,Parcours général
+2692,9IBWGT2LB25,Guilbert,Frédéric,Femme,2000-04-05,"54, avenue Anastasie Traore, Saint Théophile-sur-Mer",Université,Île-de-France,Besnard SA Université,Sans mention,Baccalauréat général,Enseignement
+2059,GN51NSGZSR8,Menard,Anne,Femme,2014-09-03,"69, avenue de Salmon, Saint JosephVille",Université,Occitanie,Gomez SA Université,Assez bien,Baccalauréat professionnel,Sciences et technologies
+9467,6QIHPNF4JD1,Prévost,Valentine,Femme,2003-02-10,"114, boulevard de Descamps, Jourdan",Université,Nouvelle-Aquitaine,Maillot Lombard et Fils Université,Sans mention,Baccalauréat général,Droit et sciences politiques
+8283,QWPQO2LNGIX,Rivière,Aurore,Femme,1996-07-21,"22, chemin Pages, Delannoy-sur-Léger",Lycée,Provence-Alpes-Côte d'Azur,Albert Lycée,Sans mention,Master,Parcours général
+1613,X27DCBHHLK3,Gauthier,Arthur,Femme,1998-12-12,"49, rue de Delmas, Marchandboeuf",Université,Provence-Alpes-Côte d'Azur,Vallet S.A.R.L. Université,Sans mention,BTS,Économie et gestion
+6237,AK32OOUXQS1,Guichard,Susanne,Homme,2007-02-15,"102, avenue Maillot, Denis",Collège,Auvergne-Rhône-Alpes,Bouchet S.A. Collège,Sans mention,Brevet des collèges,Parcours général
+2291,0HIVTQ3MD4P,Benoit,Dorothée,Femme,2007-05-11,"54, rue de Aubry, Lecomte",Lycée,Occitanie,Marion Lycée,Sans mention,Baccalauréat général,Parcours général
+1608,NUE7A34MPYO,Leconte,Geneviève,Femme,1997-04-29,"84, boulevard Marianne Gomez, Legendre",Université,Île-de-France,Rivière et Fils Université,Assez bien,Baccalauréat professionnel,Sciences et technologies
+7118,99U26UON8CN,Maréchal,Dominique,Femme,2004-04-01,"28, avenue de Weber, Lévyboeuf",Lycée,Provence-Alpes-Côte d'Azur,Techer S.A.R.L. Lycée,Très bien,BTS,Parcours général
+1744,DDTBYRGC8KI,Lévêque,Clémence,Homme,2007-07-05,"117, chemin Poulain, Giraudboeuf",Collège,Nouvelle-Aquitaine,Maillard S.A. Collège,Sans mention,Brevet des collèges,Parcours général
+2664,SG4OFDTRC85,Ollivier,Guillaume,Homme,2018-04-19,"53, chemin Margaux Lebrun, Fournier",Lycée,Occitanie,Lebon S.A. Lycée,Très bien,Baccalauréat professionnel,Parcours général
+7756,V7VSYJAFCO3,Mendès,Auguste,Femme,2007-04-26,"146, rue de Hoarau, Vincentnec",Lycée,Occitanie,Mace Lycée,Très bien,Master,Parcours général
+2227,BDX7M42O34O,Chevalier,Marc,Homme,2000-09-01,"159, boulevard de Dupuis, Laurent",Université,Occitanie,Thibault Université,Très bien,Baccalauréat professionnel,Enseignement
+6597,ZDZB5F5TXC0,Lévêque,Henri,Homme,2003-03-23,"127, boulevard Paul Maurice, Saint Isaac-la-Forêt",Lycée,Provence-Alpes-Côte d'Azur,Humbert et Fils Lycée,Passable,BTS,Parcours général
+4454,CD1LQJSQCZ0,Guillet,Emmanuel,Femme,1994-10-22,"88, rue Constance Pichon, Imbert",Université,Occitanie,Dijoux Maillard S.A.S. Université,Très bien,Baccalauréat général,Droit et sciences politiques
+4904,AE7L0RCTI8F,Becker,Laure,Femme,2012-01-24,"42, avenue Monique Meunier, Berthelot",Collège,Île-de-France,Courtois Collège,Sans mention,Brevet des collèges,Parcours général
+5622,VGE0GYAJPGZ,Roger,Maurice,Homme,2015-04-08,"114, avenue de Lebon, Sainte Philippe",Université,Île-de-France,Guyon Université,Très bien,BTS,Lettres et arts
+3606,PVBNHI6HABA,Bernier,Pierre,Homme,2003-03-31,"175, chemin Leleu, Gaillard-sur-Godard",Université,Île-de-France,Weiss S.A.R.L. Université,Passable,Baccalauréat professionnel,Droit et sciences politiques
+1262,0BS3LWW7OPI,Rossi,Adrienne,Homme,2018-02-13,"92, rue de Martin, Delannoy",Lycée,Auvergne-Rhône-Alpes,Joseph Baron S.A.S. Lycée,Passable,Licence,Parcours général
+4493,XAHHXKWB5O1,Cordier,Sylvie,Femme,2002-04-15,"27, boulevard Margaud Salmon, Grégoire",Université,Provence-Alpes-Côte d'Azur,Poulain S.A. Université,Bien,Baccalauréat général,Économie et gestion
+4997,V9ZY9YLW5L4,Leduc,Benoît,Femme,2013-04-04,"18, chemin Thibaut Joseph, Gautiernec",Lycée,Île-de-France,Foucher Lycée,Sans mention,Master,Parcours général
+9517,QS0SZAA1EIP,Chauvet,Suzanne,Homme,1995-07-16,"159, avenue Leroy, Saint AdèleBourg",Collège,Île-de-France,Guichard Bruneau SA Collège,Sans mention,Brevet des collèges,Parcours général
+9572,ERHNXI09P5E,Colas,Marthe,Femme,2002-09-20,"165, avenue de Raynaud, Ribeiro",Collège,Provence-Alpes-Côte d'Azur,Martin Collège,Sans mention,Brevet des collèges,Parcours général
+7691,2O31I0MHB79,Besnard,René,Homme,2010-07-31,"156, avenue de Alves, Weiss",Lycée,Provence-Alpes-Côte d'Azur,Boucher Lycée,Bien,Baccalauréat professionnel,Parcours général
+2106,PA5CGWFHDV3,Fournier,Bernard,Homme,2014-01-01,"61, rue de Rivière, Le Gall",Université,Île-de-France,Leleu Université,Très bien,BTS,Architecture
+7766,FHPVKU8H5R8,Marques,Michel,Femme,1997-11-28,"102, boulevard Delannoy, Saint Gilbert",Lycée,Auvergne-Rhône-Alpes,Gilles Lycée,Très bien,Licence,Parcours général
+5266,PVPF8R1PC6K,Chauveau,Martin,Homme,2000-08-20,"142, rue Martine Moreno, Sainte Françoise",Université,Auvergne-Rhône-Alpes,Vasseur Université,Très bien,Licence,Médecine et santé
+2045,LKURLZH6A50,Louis,Josette,Femme,2003-11-16,"126, avenue Joseph Pages, Saint Auguste-sur-Mer",Lycée,Occitanie,Guillaume Lycée,Très bien,BTS,Parcours général
+3697,NL9C59E7F18,Hoarau,Audrey,Femme,2016-10-25,"131, rue Texier, Guillaume",Université,Occitanie,Bazin S.A.R.L. Université,Passable,Licence,Informatique
+8025,70IB3WYZXJQ,Munoz,Claudine,Homme,2001-10-22,"66, chemin Laurent Faivre, Henry-sur-Mer",Collège,Provence-Alpes-Côte d'Azur,Thierry S.A. Collège,Sans mention,Brevet des collèges,Parcours général
+3976,UXFEDZNZ9C6,Morel,Clémence,Femme,2016-05-20,"43, rue Delorme, Delattre",Lycée,Nouvelle-Aquitaine,Gosselin Lycée,Bien,Master,Parcours général
+5476,8XNLO50DW1M,Vidal,Léon,Homme,2016-11-06,"69, rue de Pasquier, Thomas",Université,Auvergne-Rhône-Alpes,David S.A.S. Université,Bien,Baccalauréat général,Architecture
+5391,93ACZSX0GNZ,Guillou,Sylvie,Homme,2008-11-20,"125, rue Tanguy, Dupuynec",Collège,Provence-Alpes-Côte d'Azur,Jacques Guichard S.A. Collège,Sans mention,Brevet des collèges,Parcours général
+7183,8Q3GCG1J6OW,Rivière,Susan,Homme,2015-10-14,"163, boulevard Josette Hardy, Philippe",Collège,Île-de-France,Girard Collège,Sans mention,Brevet des collèges,Parcours général
+3195,KNJMVRYDC1A,Ruiz,Stéphane,Homme,2011-06-18,"25, rue Vincent David, Navarro",Collège,Provence-Alpes-Côte d'Azur,Costa Collège,Sans mention,Brevet des collèges,Parcours général
+8607,2NS8JR1VMYM,Bernier,Alfred,Femme,2004-09-03,"62, avenue Hebert, Payet-sur-Mer",Lycée,Hauts-de-France,Gillet Lycée,Très bien,Licence,Parcours général
+9372,V953A5O47AE,Perrier,Daniel,Femme,2012-07-28,"180, avenue de Roussel, Duval-la-Forêt",Collège,Nouvelle-Aquitaine,Lemaire Collège,Sans mention,Brevet des collèges,Parcours général
+9465,QY5SXAW7LW5,Marty,Michelle,Femme,2017-06-30,"174, chemin Éric Becker, Simon",Lycée,Auvergne-Rhône-Alpes,Lopez Lecomte et Fils Lycée,Sans mention,Licence,Parcours général
+4979,OWCP779460K,Barre,Éléonore,Homme,2005-01-04,"183, chemin Anaïs Gérard, Gros",Collège,Provence-Alpes-Côte d'Azur,Delahaye Collège,Sans mention,Brevet des collèges,Parcours général
+8593,52ZBRD399Q6,Fernandez,Augustin,Homme,2010-01-11,"124, rue de Leblanc, Payet-sur-Launay",Université,Provence-Alpes-Côte d'Azur,Delaunay S.A.S. Université,Assez bien,Baccalauréat professionnel,Droit et sciences politiques
+7793,G7ZD9B7LNKZ,Dupré,Margaux,Femme,1996-11-12,"172, chemin de Poirier, Olivierdan",Collège,Hauts-de-France,Humbert Guyot S.A.R.L. Collège,Sans mention,Brevet des collèges,Parcours général
+7354,ET0DY571VXN,Dupré,Luc,Femme,2011-08-18,"168, chemin de Jacob, Ollivier-sur-Guillou",Université,Provence-Alpes-Côte d'Azur,Pelletier Université,Assez bien,Baccalauréat professionnel,Architecture
+4568,JKEMVG7UELN,Le Goff,Nicole,Homme,2002-02-09,"80, chemin de Bertrand, Picard",Collège,Provence-Alpes-Côte d'Azur,Rodrigues Collège,Sans mention,Brevet des collèges,Parcours général
+9281,T49LNY2SVHO,Morvan,Élodie,Femme,1998-02-15,"81, rue Benoit, Bonnet",Collège,Nouvelle-Aquitaine,Prévost et Fils Collège,Sans mention,Brevet des collèges,Parcours général
+9650,4RQVFX2ZVL9,Delmas,Margaret,Homme,2002-02-02,"71, rue Noémi Fournier, Barthelemy",Université,Provence-Alpes-Côte d'Azur,Maréchal SARL Université,Assez bien,Licence,Enseignement
+5891,K8C3FZ47I07,Laroche,Eugène,Homme,1996-04-29,"125, avenue de Le Goff, Blondel",Université,Occitanie,Bourdon S.A. Université,Assez bien,Baccalauréat général,Médecine et santé
+9491,TMY91OTKZH4,Charpentier,Victoire,Femme,1997-12-03,"25, avenue de Boucher, Lefebvre",Collège,Nouvelle-Aquitaine,Merle Collège,Sans mention,Brevet des collèges,Parcours général
+6186,1U24ZQFEZKF,Delorme,Christelle,Homme,1993-12-17,"192, rue Labbé, Coulondan",Collège,Hauts-de-France,Grenier Legros SA Collège,Sans mention,Brevet des collèges,Parcours général
+5893,XN4D24N9YGC,Normand,Nathalie,Femme,2018-08-20,"122, avenue Robert, Benard",Collège,Île-de-France,Colin Collège,Sans mention,Brevet des collèges,Parcours général
+7630,ESMPF0IEOKV,Legendre,Alexandrie,Homme,1999-12-13,"168, rue de Carlier, Rousseau",Université,Occitanie,Dos Santos Laurent S.A.R.L. Université,Très bien,Licence,Lettres et arts
+1893,JXNECRYSAUU,Traore,Anne,Femme,2009-12-17,"178, chemin Michèle Gillet, Guibert-sur-Mer",Université,Île-de-France,Coulon Sanchez SARL Université,Très bien,Licence,Économie et gestion
+8852,9ZKELZ5TOZO,Weber,Gilbert,Femme,2009-11-23,"17, chemin de Hamon, Antoine",Université,Provence-Alpes-Côte d'Azur,Perret Gonzalez SARL Université,Assez bien,Baccalauréat général,Lettres et arts
+6999,GVGT2EEHFU4,Pires,Maggie,Homme,2016-03-20,"22, avenue de Prévost, Lévêque-les-Bains",Collège,Provence-Alpes-Côte d'Azur,Pascal S.A. Collège,Sans mention,Brevet des collèges,Parcours général
+5980,K8G9XIB86KT,Ferrand,Suzanne,Homme,2017-07-21,"148, rue de Albert, Leduc",Lycée,Hauts-de-France,Guilbert S.A. Lycée,Bien,Master,Parcours général
+4421,69VSYXBBF4H,Lacroix,André,Homme,2002-08-29,"155, chemin de Loiseau, Mathieu",Université,Auvergne-Rhône-Alpes,Rousset Thibault S.A.S. Université,Bien,Baccalauréat professionnel,Informatique
+6200,0PTJXFQ8Y7F,Mahe,Jeannine,Homme,2005-10-21,"19, rue Tristan Martins, Carre",Université,Hauts-de-France,Guillot et Fils Université,Assez bien,BTS,Médecine et santé
+2709,UXSF3L2N8IJ,Chevalier,Christiane,Homme,2013-11-02,"176, boulevard de Delannoy, Sainte Matthieu",Université,Occitanie,Gonzalez Université,Bien,Baccalauréat général,Lettres et arts
+5217,NMJ5IAN8ND7,Caron,Victoire,Homme,2011-01-20,"135, boulevard Eugène Colas, Saint Claudine",Université,Nouvelle-Aquitaine,Allain SARL Université,Passable,Master,Enseignement
+9015,MUKJDBL1G3Y,Samson,Richard,Femme,1998-01-11,"123, rue de Martinez, Petit",Université,Auvergne-Rhône-Alpes,Joubert Université,Passable,Master,Médecine et santé
+4913,ZXFUJ7XN1YP,Giraud,Guy,Femme,2006-10-13,"47, rue de Boulay, Prévost",Lycée,Nouvelle-Aquitaine,Couturier Masson S.A.R.L. Lycée,Très bien,Master,Parcours général
+4736,K8SZ7IWDL14,Caron,Hélène,Homme,2000-03-16,"20, rue Delannoy, Renaud-la-Forêt",Université,Auvergne-Rhône-Alpes,Gilles Université,Assez bien,Master,Lettres et arts
+9334,C0TR58PS0RS,Neveu,Émilie,Homme,2002-03-20,"104, chemin de Jourdan, Gomez",Collège,Provence-Alpes-Côte d'Azur,Lebreton S.A.R.L. Collège,Sans mention,Brevet des collèges,Parcours général
+5539,G3APTM9X798,Lamy,Colette,Homme,2007-11-09,"156, rue Hernandez, Potiernec",Lycée,Auvergne-Rhône-Alpes,Gallet Lycée,Sans mention,Baccalauréat professionnel,Parcours général
+2947,GNEMBRG8MY3,Maillet,Alex,Homme,2014-08-12,"75, avenue Anouk Perez, Martin",Lycée,Occitanie,Delmas Hebert S.A.S. Lycée,Bien,BTS,Parcours général
+4404,H0UHK7X3BQW,Giraud,Alphonse,Femme,2015-05-17,"15, chemin de Courtois, Menard-la-Forêt",Lycée,Île-de-France,Guichard Lycée,Sans mention,Licence,Parcours général
+3622,LMA6GMDRDSF,Louis,Adrien,Homme,1995-05-31,"125, avenue Auguste Rodriguez, Gautier",Collège,Auvergne-Rhône-Alpes,Fabre Langlois S.A.S. Collège,Sans mention,Brevet des collèges,Parcours général
+8326,1JQNN6TJ9XP,Duval,Josette,Homme,1998-03-04,"91, rue de Allain, Saint Isabelle",Université,Occitanie,Gonzalez Université,Bien,Baccalauréat professionnel,Sciences et technologies
+3477,DKEPLBX889E,Vasseur,Eugène,Femme,2014-09-24,"141, boulevard de Jacques, Saint Georges",Lycée,Hauts-de-France,Lucas Perrier S.A.S. Lycée,Assez bien,BTS,Parcours général
+9528,12O003E82EM,Bouchet,Alix,Homme,2007-03-15,"197, avenue Thomas Benard, Delahaye-sur-Pires",Université,Auvergne-Rhône-Alpes,Michaud Université,Bien,Licence,Sciences et technologies

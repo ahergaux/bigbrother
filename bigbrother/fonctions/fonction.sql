@@ -5,7 +5,6 @@
 -- fonction.sql 
 
 
---Fonction pour avoir les tables des clés etrangères d'une table
 
 -- Fonction pour obtenir les colonnes, tables et colonnes référencées par des clés étrangères dans une table donnée.
 CREATE OR REPLACE FUNCTION get_name_table_fk(nom_table TEXT) 
@@ -46,7 +45,7 @@ CREATE OR REPLACE FUNCTION create_table_reference(nom_table TEXT) RETURNS VOID A
 BEGIN
     CREATE TABLE IF NOT EXISTS nom_table ( -- Si elle n'existe pas déjà
         id SERIAL PRIMARY KEY,            -- Colonne ID auto-incrémentée
-        nom VARCHAR(20) UNIQUE            -- Colonne de texte avec une contrainte unique
+        nom VARCHAR(50) UNIQUE            -- Colonne de texte avec une contrainte unique
     );
 END;
 $$ LANGUAGE plpgsql;
@@ -70,7 +69,7 @@ BEGIN
                 attributs[i], nom_table, attributs[i], attributs[i]
             );
         -- Si le type est une valeur numérique ou temporelle, ajouter directement la colonne
-        ELSEIF split_part(attributs_with_type[i],' ',2) IN ('timestamp','integer','date') THEN 
+        ELSEIF split_part(attributs_with_type[i],' ',2) IN ('timestamp','integer','date','real') THEN 
             requete_creation := requete_creation || attributs_with_type[i];
         END IF;
 
@@ -94,7 +93,7 @@ DECLARE
     requete_creation TEXT; -- Variable pour construire la requête
 BEGIN
     -- Début de la création de la table temporaire
-    requete_creation := FORMAT('CREATE TEMP TABLE IF NOT EXISTS %I (', nom_table);
+    requete_creation := FORMAT('CREATE TABLE IF NOT EXISTS %I (', nom_table);
 
     -- Ajouter chaque attribut avec son type
     FOR i IN 1 .. array_length(attributs_with_type, 1)
@@ -130,12 +129,12 @@ BEGIN
             -- Ajoute le nom de la table de référence existante au résultat
             result := result || concat(attributs[i], '__ref');
         -- Si l'attribut est de type timestamp, integer ou date, aucun traitement n'est nécessaire
-        ELSEIF split_part(attributs_with_type[i], ' ', 2) IN ('timestamp', 'integer', 'date') THEN
+        ELSEIF split_part(attributs_with_type[i], ' ', 2) IN ('timestamp', 'integer', 'date','real') THEN
             CONTINUE;
         ELSE
             -- Crée une nouvelle table de référence pour l'attribut
             EXECUTE FORMAT(
-                'CREATE TABLE IF NOT EXISTS %I ( id SERIAL PRIMARY KEY, %I VARCHAR(20) UNIQUE NOT NULL)',
+                'CREATE TABLE IF NOT EXISTS %I ( id SERIAL PRIMARY KEY, %I VARCHAR(50) UNIQUE NOT NULL)',
                 (attributs[i] || '__ref'),
                 attributs[i]
             );
@@ -239,11 +238,22 @@ DECLARE
     update_set TEXT;              -- Clause `UPDATE SET` pour gérer les conflits
     i INTEGER;                    -- Index pour les boucles
     colonne_unique TEXT;          -- Définition de l'unicité des colonnes
+    adresse_parts TEXT[];         -- Tableau pour décomposer l'adresse
+    id_ville INTEGER;             -- ID de la ville
+    id_rue INTEGER;               -- ID de la rue
+    id_adresse INTEGER;           -- ID de l'adresse complète
+    rec RECORD;                   -- Utilisé pour stocker les résultats ligne par ligne
 BEGIN
+    -- Ajouter la colonne id_adresse à temp_table si l'attribut 'adresse' est présent
+    IF 'adresse' = ANY (attributs) THEN
+        EXECUTE 'ALTER TABLE temp_table ADD COLUMN IF NOT EXISTS id_adresse INTEGER';
+    END IF;
+
     -- Création de la liste des colonnes de destination (ex. : `id_nom, age`)
     colonnes_destination := array_to_string(
         ARRAY(SELECT CASE
-                      WHEN split_part(attributs_with_type[gs.i], ' ', 2) = 'text' THEN 'id_' || attributs[gs.i]
+                      WHEN split_part(attributs_with_type[gs.i], ' ', 2) = 'text' AND attributs[gs.i] != 'adresse' THEN 'id_' || attributs[gs.i]
+                      WHEN attributs[gs.i] = 'adresse' THEN 'id_adresse'
                       ELSE attributs[gs.i]
                    END
         FROM generate_subscripts(attributs_with_type, 1) AS gs(i)), ', ');
@@ -251,36 +261,91 @@ BEGIN
     -- Création de la liste des colonnes source (ex. : `ref_nom.id, age`)
     colonnes_source := array_to_string(
         ARRAY(SELECT CASE
-                      WHEN split_part(attributs_with_type[gs.i], ' ', 2) = 'text' THEN 'ref_' || attributs[gs.i] || '.id'
-                      ELSE attributs[gs.i]
+                      WHEN split_part(attributs_with_type[gs.i], ' ', 2) = 'text' AND attributs[gs.i] != 'adresse' THEN 'ref_' || attributs[gs.i] || '.id'
+                      WHEN attributs[gs.i] = 'adresse' THEN 'src.id_adresse'
+                      ELSE 'src.' || attributs[gs.i]
                    END
         FROM generate_subscripts(attributs_with_type, 1) AS gs(i)), ', ');
 
     -- Création des jointures nécessaires pour les attributs textuels
     FOR i IN 1 .. array_length(attributs_with_type, 1) LOOP
-        IF split_part(attributs_with_type[i], ' ', 2) = 'text' THEN
+        IF split_part(attributs_with_type[i], ' ', 2) = 'text' AND attributs[i] != 'adresse' THEN
             requete_joins := requete_joins || FORMAT(
-                'LEFT JOIN %I__ref AS ref_%s ON src.%I = ref_%s.%s ',
+                'LEFT JOIN %I__ref AS ref_%I ON src.%I = ref_%I.%I ',
                 attributs[i], attributs[i], attributs[i], attributs[i], attributs[i]
             );
         END IF;
     END LOOP;
+
+    -- Traitement spécial pour les adresses
+    IF 'adresse' = ANY (attributs) THEN
+        -- Boucle sur chaque adresse distincte
+        FOR rec IN EXECUTE 'SELECT DISTINCT adresse FROM temp_table WHERE adresse IS NOT NULL' LOOP
+            -- Décomposer l'adresse en numéro, rue et ville
+            adresse_parts := string_to_array(rec.adresse, ',');
+            IF array_length(adresse_parts, 1) = 3 THEN
+                -- Insérer ou récupérer l'ID de la ville
+                EXECUTE FORMAT('INSERT INTO ville__ref (ville) VALUES (%L) ON CONFLICT (ville) DO NOTHING RETURNING id', adresse_parts[3])
+                INTO id_ville;
+                IF id_ville IS NULL THEN
+                    EXECUTE FORMAT('SELECT id FROM ville__ref WHERE ville = %L', adresse_parts[3]) INTO id_ville;
+                END IF;
+
+                -- Insérer ou récupérer l'ID de la rue
+                EXECUTE FORMAT(
+                    'INSERT INTO rue__ref (rue, id_ville) VALUES (%L, %s) ON CONFLICT (rue, id_ville) DO NOTHING RETURNING id',
+                    adresse_parts[2], id_ville
+                )
+                INTO id_rue;
+                IF id_rue IS NULL THEN
+                    EXECUTE FORMAT(
+                        'SELECT id FROM rue__ref WHERE rue = %L AND id_ville = %s',
+                        adresse_parts[2], id_ville
+                    ) INTO id_rue;
+                END IF;
+
+                -- Insérer ou récupérer l'ID de l'adresse complète
+                EXECUTE FORMAT(
+                    'INSERT INTO adresse__ref (numero, id_rue, id_ville) VALUES (%s, %s, %s) ON CONFLICT (numero, id_rue, id_ville) DO NOTHING RETURNING id',
+                    adresse_parts[1], id_rue, id_ville
+                )
+                INTO id_adresse;
+                IF id_adresse IS NULL THEN
+                    EXECUTE FORMAT(
+                        'SELECT id FROM adresse__ref WHERE numero = %s AND id_rue = %s AND id_ville = %s',
+                        adresse_parts[1], id_rue, id_ville
+                    ) INTO id_adresse;
+                END IF;
+
+                -- Mettre à jour la table temporaire avec l'ID de l'adresse
+                EXECUTE FORMAT(
+                    'UPDATE temp_table SET id_adresse = %s WHERE adresse = %L',
+                    id_adresse, rec.adresse
+                );
+            ELSE
+                RAISE WARNING 'Adresse invalide : %', rec.adresse;
+            END IF;
+        END LOOP;
+    END IF;
 
     -- Création de la clause `UPDATE SET` pour les conflits (mise à jour en cas de conflit sur les clés)
     update_set := array_to_string(
         ARRAY(SELECT FORMAT(
             '%s = COALESCE(EXCLUDED.%s, %I.%s)',
             CASE
-                WHEN split_part(attributs_with_type[gs.i], ' ', 2) = 'text' THEN 'id_' || attributs[gs.i]
+                WHEN split_part(attributs_with_type[gs.i], ' ', 2) = 'text' AND attributs[gs.i] != 'adresse' THEN 'id_' || attributs[gs.i]
+                WHEN attributs[gs.i] = 'adresse' THEN 'id_adresse'
                 ELSE attributs[gs.i]
             END,
             CASE
-                WHEN split_part(attributs_with_type[gs.i], ' ', 2) = 'text' THEN 'id_' || attributs[gs.i]
+                WHEN split_part(attributs_with_type[gs.i], ' ', 2) = 'text' AND attributs[gs.i] != 'adresse' THEN 'id_' || attributs[gs.i]
+                WHEN attributs[gs.i] = 'adresse' THEN 'id_adresse'
                 ELSE attributs[gs.i]
             END,
             nom_table,
             CASE
-                WHEN split_part(attributs_with_type[gs.i], ' ', 2) = 'text' THEN 'id_' || attributs[gs.i]
+                WHEN split_part(attributs_with_type[gs.i], ' ', 2) = 'text' AND attributs[gs.i] != 'adresse' THEN 'id_' || attributs[gs.i]
+                WHEN attributs[gs.i] = 'adresse' THEN 'id_adresse'
                 ELSE attributs[gs.i]
             END
         )
@@ -328,6 +393,38 @@ $$ LANGUAGE plpgsql;
 
 
 
+CREATE OR REPLACE FUNCTION normalize_table_content(nom_table TEXT) RETURNS VOID AS $$
+DECLARE
+    c_n TEXT;              -- Nom de la colonne
+    query TEXT;                    -- Requête dynamique pour la mise à jour
+BEGIN
+    -- Boucle sur toutes les colonnes de type texte dans la table
+    FOR c_n IN
+        SELECT column_name
+        FROM information_schema.columns
+        WHERE table_name = nom_table
+          AND table_schema = 'public' -- Filtrer pour le schéma public (modifiable selon vos besoins)
+          AND data_type IN ('text', 'character varying', 'char') -- Se concentrer sur les colonnes textuelles
+    LOOP
+        -- Construction de la requête pour transformer les données
+        query := FORMAT(
+            'UPDATE %I SET %I = LOWER(REPLACE(TRANSLATE(UNACCENT(REPLACE(%I, ''-'', ''_'')), 
+                     ''ÀÂÄÇÉÈÊËÌÎÏÒÔÖÙÛÜàâäçéèêëìîïòôöùûü '', 
+                     ''AAACEEEEIIIOOOUUUaaaceeeeiiiooouuu''), '' '', ''_'')) WHERE %I IS NOT NULL;',
+            nom_table, c_n, c_n, c_n
+        );
+
+        -- Exécution de la requête dynamique
+        EXECUTE query;
+    END LOOP;
+
+    -- Message pour indiquer la fin du traitement
+    --RAISE NOTICE 'Toutes les colonnes textuelles de la table "%" ont été normalisées.', nom_table;
+END;
+$$ LANGUAGE plpgsql;
+
+
+
 
 
 CREATE OR REPLACE FUNCTION import_fichier(chemin_relatif TEXT, nom_table TEXT)
@@ -354,6 +451,9 @@ BEGIN
 
     -- Importation des données CSV dans la table temporaire
     EXECUTE FORMAT('COPY temp_table FROM %L WITH (FORMAT csv, HEADER true)', chemin_fichier);
+
+    -- Normalisation des valeurs importés
+    PERFORM normalize_table_content('temp_table');
 
     -- Vérifie et crée les tables de référence nécessaires
     fk_cor := check_table_with_att(attributs_with_type);
@@ -384,7 +484,7 @@ DECLARE
     personne_columns TEXT[];
     attrs_identity TEXT[];
     attrs_present TEXT[];
-    threshold REAL := 1e-6; -- Ajustez ce seuil selon vos besoins
+    threshold REAL := 1e-1; -- Ajustez ce seuil selon vos besoins
     personne_id INTEGER;
     min_score REAL;
     coeff REAL;
@@ -513,80 +613,3 @@ END;
 $$ LANGUAGE plpgsql;
 
 
-CREATE OR REPLACE FUNCTION creer_nouvelle_personne_dynamic(
-    nom_table_import TEXT,
-    import_id INTEGER,
-    attrs_present TEXT[]
-) RETURNS INTEGER AS $$
-DECLARE
-    insert_columns TEXT := '';
-    insert_values TEXT := '';
-    attr TEXT;
-    val TEXT;
-    new_personne_id INTEGER;
-    ref_table TEXT;
-    ref_id_col TEXT;
-    ref_val_col TEXT;
-    ref_id INTEGER;
-    attr_import TEXT;
-    i INTEGER;
-BEGIN
-    -- Check if attrs_present is NULL or empty
-    IF attrs_present IS NULL OR array_length(attrs_present, 1) IS NULL THEN
-        RAISE WARNING 'attrs_present is NULL or empty. No attributes to process.';
-        -- Insert a new person with default values if attrs_present is NULL or empty
-        EXECUTE 'INSERT INTO personne DEFAULT VALUES RETURNING id' INTO new_personne_id;
-        RETURN new_personne_id;
-    END IF;
-
-    FOR i IN 1 .. array_length(attrs_present, 1) LOOP
-        attr := attrs_present[i];
-
-        -- Determine the corresponding attribute in the imported table
-        IF attr LIKE 'id_%' THEN
-            attr_import := lower(substring(attr FROM 4)); -- Ex: 'id_nom' => 'nom'
-        ELSE
-            attr_import := attr;
-        END IF;
-
-        -- Get the value of the attribute from the imported table
-        EXECUTE FORMAT('SELECT %I FROM %I WHERE id = %s', attr_import, nom_table_import, import_id) INTO val;
-
-        IF val IS NOT NULL THEN
-            IF attr LIKE 'id_%' THEN
-                -- Handle the reference table
-                ref_table := upper(substring(attr FROM 4)) || '__REF'; -- Ex: 'id_nom' => 'NOM__REF'
-                ref_id_col := 'id';
-                ref_val_col := lower(substring(attr FROM 4)); -- Ex: 'id_nom' => 'nom'
-
-                -- Check if the value exists in the reference table
-                EXECUTE FORMAT('SELECT %I FROM %I WHERE %I = %L', ref_id_col, ref_table, ref_val_col, val) INTO ref_id;
-                IF ref_id IS NULL THEN
-                    -- Insert the value into the reference table
-                    EXECUTE FORMAT('INSERT INTO %I (%I) VALUES (%L) RETURNING %I', ref_table, ref_val_col, val, ref_id_col) INTO ref_id;
-                END IF;
-
-                insert_columns := insert_columns || FORMAT('%I, ', attr);
-                insert_values := insert_values || FORMAT('%s, ', ref_id);
-            ELSE
-                insert_columns := insert_columns || FORMAT('%I, ', attr);
-                insert_values := insert_values || FORMAT('%L, ', val);
-            END IF;
-        END IF;
-    END LOOP;
-
-    -- Remove the last comma and space
-    IF insert_columns <> '' THEN
-        insert_columns := left(insert_columns, length(insert_columns) - 2);
-        insert_values := left(insert_values, length(insert_values) - 2);
-
-        -- Insert the new person
-        EXECUTE FORMAT('INSERT INTO personne (%s) VALUES (%s) RETURNING id', insert_columns, insert_values) INTO new_personne_id;
-    ELSE
-        -- Insert a new person with default values
-        EXECUTE 'INSERT INTO personne DEFAULT VALUES RETURNING id' INTO new_personne_id;
-    END IF;
-
-    RETURN new_personne_id;
-END;
-$$ LANGUAGE plpgsql;

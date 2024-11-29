@@ -1,0 +1,201 @@
+num_employe INTEGER,nom TEXT,prenom TEXT,genre TEXT,date_naissance DATE,adresse TEXT,entreprise TEXT,job_title TEXT,salary INTEGER,hire_date DATE,regime_travail TEXT
+5034,Simon,Sophie,Homme,1963-10-09,"117, chemin Humbert, Gonzalez-la-Forêt",Ministère de la Culture,Directeur de Cabinet,176352,2012-06-13,Mandat plein
+8538,Laurent,Claire,Femme,1983-12-04,"20, rue de Bouchet, Weiss",Ministère de la Santé,Secrétaire d'État,180369,2004-12-14,Partiel
+2810,David,Jean,Homme,1957-12-03,"30, rue Alix Roy, Courtois",Ministère de l'Économie et des Finances,Haut-Commissaire,134448,2016-01-08,Mandat plein
+8518,Laurent,Marie,Homme,1954-10-30,"63, rue Torres, Gonzalez-la-Forêt",Ministère de l'Éducation nationale,Ambassadeur,115187,2005-06-01,Spécial
+8953,Laurent,Alice,Homme,1959-09-18,"132, chemin Humbert, Weiss",Ministère de l'Éducation nationale,Haut-Commissaire,81035,2015-09-11,Mandat plein
+8313,Garcia,Jean,Femme,1982-11-16,"174, rue Auguste De Sousa, Gonzalez-la-Forêt",Ministère de l'Agriculture,Ambassadeur,142026,2016-08-25,Spécial
+5721,Laurent,Marie,Femme,1958-09-08,"84, rue Auguste De Sousa, DenisBourg",Ministère des Affaires étrangères,Directeur de Cabinet,185155,2008-11-14,Spécial
+2025,Bernard,Marie,Homme,1964-11-28,"149, rue Peron, DenisBourg",Ministère de l'Économie et des Finances,Haut-Commissaire,175781,2012-01-19,Partiel
+2605,David,Alexandre,Homme,1979-01-04,"69, rue Peron, Gonzalez-la-Forêt",Ministère de l'Agriculture,Conseiller Spécial,123628,2014-01-08,Mandat plein
+1979,Durand,Marie,Homme,1968-05-23,"152, avenue Pascal, Sainte Nathalie",Ministère de la Défense,Secrétaire d'État,118513,2003-07-30,Spécial
+8173,Durand,Sophie,Homme,1970-08-07,"194, rue Frédérique Faure, DenisBourg",Ministère de la Justice,Haut-Commissaire,174813,2011-05-19,Mandat plein
+6780,Bernard,Sophie,Femme,1980-09-29,"85, chemin Humbert, Gonzalez-la-Forêt",Ministère de l'Éducation nationale,Conseiller Spécial,192663,2018-06-09,Partiel
+2924,Simon,Claire,Homme,1955-11-04,"137, rue Frédérique Faure, Michaud-la-Forêt",Ministère de la Justice,Ambassadeur,119361,2016-11-06,Mandat plein
+4292,Simon,Alice,Homme,1964-07-17,"49, rue Alix Roy, Weiss",Ministère de la Santé,Ambassadeur,84133,2011-08-24,Partiel
+5404,Durand,Alexandre,Femme,1954-08-27,"59, avenue Pascal, Sainte Nathalie",Ministère de la Culture,Directeur de Cabinet,104762,2019-04-25,Partiel
+9194,Petit,Hugo,Femme,1979-10-01,"81, rue Frédérique Faure, DenisBourg",Ministère de l'Agriculture,Conseiller Spécial,198687,2012-03-07,Partiel
+5803,Martin,Marie,Homme,1960-07-23,"199, rue Alix Roy, Gonzalez-la-Forêt",Ministère de la Transition écologique,Ministre,187942,2014-05-31,Partiel
+5579,Morel,Alexandre,Homme,1962-11-11,"132, rue Frédérique Faure, Gonzalez-la-Forêt",Ministère de l'Éducation nationale,Ministre,129210,2007-05-05,Mandat plein
+8246,Martin,Jean,Homme,1977-12-26,"56, avenue Pascal, Weiss",Ministère de la Défense,Conseiller Spécial,104752,2020-02-08,Partiel
+1052,David,Jean,Femme,1955-05-08,"15, rue Frédérique Faure, Le Gall",Ministère de la Santé,Secrétaire d'État,184975,2012-08-08,Partiel
+3399,Dubois,Emilie,Homme,1967-08-19,"32, avenue Pascal, Weiss",Ministère de la Transition écologique,Ambassadeur,135888,2013-07-06,Mandat plein
+2812,Laurent,Jean,Homme,1966-10-30,"28, rue Alix Roy, Weiss",Ministère de la Santé,Secrétaire d'État,95400,2020-02-16,Mandat plein
+9831,Dubois,Alice,Homme,1957-11-14,"19, chemin Humbert, Gonzalez-la-Forêt",Ministère de la Transition écologique,Secrétaire d'État,83817,2014-05-18,Partiel
+7285,Morel,Thomas,Homme,1960-03-07,"141, rue Frédérique Faure, Weiss",Ministère de la Défense,Conseiller Spécial,189634,2000-07-14,Partiel
+3568,Dubois,Claire,Femme,1961-09-10,"161, rue Auguste De Sousa, DenisBourg",Ministère de la Santé,Secrétaire d'État,93856,2006-01-17,Partiel
+2047,Bernard,Alice,Homme,1973-03-18,"10, rue Auguste De Sousa, Courtois",Ministère de la Justice,Directeur de Cabinet,183309,2004-01-20,Mandat plein
+7948,Dubois,Alexandre,Homme,1959-06-13,"73, chemin Humbert, DenisBourg",Ministère de l'Éducation nationale,Ministre,154396,2019-07-18,Mandat plein
+2003,David,Julien,Homme,1981-01-31,"108, rue Frédérique Faure, Courtois",Ministère des Affaires étrangères,Ministre,160789,2011-04-12,Mandat plein
+8912,Dubois,Alice,Homme,1975-02-22,"196, rue Frédérique Faure, DenisBourg",Ministère de l'Intérieur,Directeur de Cabinet,169067,2020-04-16,Partiel
+6620,Bernard,Sophie,Femme,1983-01-23,"90, rue Peron, Weiss",Ministère des Affaires étrangères,Secrétaire d'État,161788,2000-05-30,Partiel
+6403,Laurent,Alice,Homme,1952-11-24,"55, rue Alix Roy, Michaud-la-Forêt",Ministère de la Justice,Secrétaire d'État,99039,2007-06-19,Partiel
+8981,Durand,Thomas,Homme,1956-01-05,"111, rue Alix Roy, DenisBourg",Ministère de la Santé,Ministre,111571,2002-11-15,Partiel
+3720,Morel,Hugo,Homme,1976-02-15,"90, rue Auguste De Sousa, Courtois",Ministère de l'Économie et des Finances,Directeur de Cabinet,199290,2006-09-20,Mandat plein
+5904,Dubois,Julien,Homme,1967-05-26,"112, avenue Pascal, Le Gall",Ministère de l'Intérieur,Secrétaire d'État,130539,2014-06-15,Mandat plein
+5259,David,Julien,Homme,1972-04-11,"163, chemin Humbert, DenisBourg",Ministère de la Santé,Ambassadeur,198653,2001-10-04,Partiel
+8154,Petit,Hugo,Femme,1962-10-13,"136, rue Auguste De Sousa, DenisBourg",Ministère de la Santé,Ministre,147710,2004-01-11,Spécial
+9725,Petit,Alexandre,Femme,1959-11-03,"158, rue Alix Roy, Le Gall",Ministère de l'Agriculture,Ambassadeur,120367,2018-12-12,Mandat plein
+6572,Bernard,Sophie,Homme,1958-04-08,"179, rue Frédérique Faure, Weiss",Ministère de l'Économie et des Finances,Secrétaire d'État,150827,2003-07-26,Spécial
+5643,David,Marie,Homme,1957-05-09,"5, rue de Bouchet, Weiss",Ministère des Affaires étrangères,Secrétaire d'État,178307,2017-08-27,Mandat plein
+6183,Simon,Marie,Homme,1984-09-18,"54, chemin Humbert, Le Gall",Ministère de l'Éducation nationale,Ministre,136380,2000-08-16,Partiel
+8553,Martin,Hugo,Homme,1973-09-19,"87, chemin Humbert, Sainte Nathalie",Ministère de la Justice,Ambassadeur,197200,2005-08-07,Partiel
+9621,Dubois,Thomas,Homme,1981-02-27,"100, chemin Humbert, Le Gall",Ministère de la Défense,Directeur de Cabinet,137571,2014-11-18,Spécial
+4192,Bernard,Julien,Femme,1952-12-13,"142, rue Alix Roy, Sainte Nathalie",Ministère de l'Éducation nationale,Conseiller Spécial,103019,2018-11-08,Partiel
+3394,Simon,Julien,Homme,1982-09-17,"14, rue Torres, Courtois",Ministère de l'Éducation nationale,Secrétaire d'État,83095,2019-07-24,Spécial
+6650,Martin,Alice,Femme,1970-10-03,"122, rue Alix Roy, Weiss",Ministère de la Transition écologique,Ambassadeur,191286,2013-02-06,Spécial
+2840,Morel,Thomas,Homme,1974-05-22,"107, rue Peron, Courtois",Ministère des Affaires étrangères,Secrétaire d'État,162991,2018-03-22,Spécial
+5385,Durand,Alice,Homme,1966-09-06,"152, rue Frédérique Faure, Sainte Nathalie",Ministère de la Culture,Haut-Commissaire,118915,2015-10-28,Spécial
+3774,Bernard,Thomas,Homme,1956-07-10,"61, rue de Bouchet, Gonzalez-la-Forêt",Ministère de l'Agriculture,Secrétaire d'État,114865,2013-01-05,Partiel
+5047,Morel,Marie,Homme,1985-04-09,"129, rue de Bouchet, Michaud-la-Forêt",Ministère de l'Économie et des Finances,Directeur de Cabinet,134273,2006-07-14,Spécial
+7350,Garcia,Julien,Femme,1979-09-08,"102, rue Frédérique Faure, Courtois",Ministère de l'Intérieur,Secrétaire d'État,181606,2012-11-25,Partiel
+6965,Simon,Hugo,Homme,1974-11-21,"85, rue Frédérique Faure, Michaud-la-Forêt",Ministère de l'Économie et des Finances,Conseiller Spécial,196169,2010-05-06,Mandat plein
+5600,Petit,Julien,Homme,1951-06-25,"153, rue Peron, DenisBourg",Ministère de l'Économie et des Finances,Conseiller Spécial,154125,2018-01-21,Spécial
+1143,Dubois,Julien,Homme,1979-01-17,"150, rue Peron, Gonzalez-la-Forêt",Ministère de la Justice,Secrétaire d'État,195460,2005-04-14,Spécial
+6709,David,Hugo,Femme,1972-03-22,"107, avenue Pascal, Sainte Nathalie",Ministère de l'Agriculture,Ministre,161511,2018-06-01,Spécial
+4118,Bernard,Claire,Homme,1970-02-12,"42, chemin Humbert, DenisBourg",Ministère de l'Éducation nationale,Haut-Commissaire,161844,2005-03-21,Partiel
+9544,Durand,Marie,Femme,1952-03-14,"78, rue Torres, Weiss",Ministère de l'Intérieur,Ministre,90958,2018-04-27,Spécial
+7897,Garcia,Emilie,Femme,1959-03-05,"47, rue Torres, Courtois",Ministère de la Santé,Ministre,162495,2000-09-18,Mandat plein
+5325,Laurent,Emilie,Femme,1962-03-03,"17, rue Auguste De Sousa, Gonzalez-la-Forêt",Ministère de l'Intérieur,Ambassadeur,129076,2017-01-13,Spécial
+4439,David,Emilie,Femme,1981-07-26,"176, avenue Pascal, Le Gall",Ministère de la Défense,Secrétaire d'État,154133,2001-10-06,Partiel
+7447,Simon,Julien,Femme,1955-05-22,"23, rue Torres, Courtois",Ministère de l'Intérieur,Haut-Commissaire,124428,2020-09-20,Spécial
+2006,Garcia,Sophie,Homme,1955-08-31,"87, avenue Pascal, DenisBourg",Ministère de l'Intérieur,Ministre,125618,2007-11-14,Spécial
+8638,Petit,Julien,Homme,1975-10-26,"158, avenue Pascal, Le Gall",Ministère de l'Éducation nationale,Secrétaire d'État,158337,2019-04-24,Mandat plein
+7803,Garcia,Hugo,Femme,1959-01-14,"34, avenue Pascal, Sainte Nathalie",Ministère de la Santé,Ministre,122135,2016-07-02,Partiel
+6854,Durand,Claire,Femme,1981-09-15,"23, rue Peron, Weiss",Ministère de la Santé,Secrétaire d'État,165549,2017-08-27,Spécial
+1539,Garcia,Emilie,Homme,1951-09-27,"143, rue Torres, Le Gall",Ministère de l'Éducation nationale,Ministre,159555,2016-12-08,Mandat plein
+8925,David,Alice,Homme,1970-01-30,"142, rue Alix Roy, Courtois",Ministère de la Culture,Directeur de Cabinet,174746,2006-01-07,Spécial
+2843,Durand,Claire,Femme,1953-12-06,"94, rue de Bouchet, Gonzalez-la-Forêt",Ministère de la Culture,Secrétaire d'État,185303,2010-12-14,Spécial
+4624,Petit,Emilie,Femme,1958-08-16,"38, avenue Pascal, DenisBourg",Ministère de l'Éducation nationale,Ambassadeur,148867,2020-11-30,Spécial
+1312,Morel,Alice,Femme,1953-09-23,"70, chemin Humbert, Carre",Ministère de l'Éducation nationale,Directeur de Cabinet,115629,2013-07-06,Mandat plein
+8160,Bernard,Julien,Homme,1978-02-02,"23, rue de Bouchet, Gonzalez-la-Forêt",Ministère de l'Agriculture,Haut-Commissaire,128463,2006-04-20,Partiel
+9719,Durand,Hugo,Femme,1957-11-02,"168, rue Auguste De Sousa, Courtois",Ministère de la Santé,Secrétaire d'État,157149,2006-03-30,Spécial
+4986,Garcia,Claire,Femme,1977-12-17,"97, rue Peron, Sainte Nathalie",Ministère de l'Économie et des Finances,Haut-Commissaire,124932,2010-02-26,Spécial
+3936,David,Alexandre,Femme,1959-07-04,"79, rue Peron, Sainte Nathalie",Ministère de l'Éducation nationale,Ambassadeur,103989,2015-09-07,Partiel
+2527,Simon,Sophie,Homme,1953-05-11,"18, rue Torres, Weiss",Ministère des Affaires étrangères,Ministre,135079,2002-03-11,Mandat plein
+1014,Dubois,Thomas,Homme,1969-10-15,"122, rue Frédérique Faure, DenisBourg",Ministère de la Défense,Ministre,144202,2012-11-30,Mandat plein
+6535,Dubois,Emilie,Femme,1961-02-25,"50, rue Torres, Sainte Nathalie",Ministère de l'Agriculture,Directeur de Cabinet,150042,2009-03-09,Partiel
+2585,Dubois,Hugo,Homme,1959-05-15,"62, rue Alix Roy, Michaud-la-Forêt",Ministère de la Défense,Ministre,88201,2002-11-01,Mandat plein
+2191,Petit,Claire,Femme,1971-05-24,"59, rue Frédérique Faure, Gonzalez-la-Forêt",Ministère de la Défense,Haut-Commissaire,131745,2013-11-03,Mandat plein
+7440,Morel,Claire,Femme,1966-09-18,"122, rue de Bouchet, Carre",Ministère de l'Agriculture,Directeur de Cabinet,190424,2018-09-10,Partiel
+6623,Bernard,Alice,Homme,1982-11-24,"177, avenue Pascal, Courtois",Ministère de l'Éducation nationale,Directeur de Cabinet,153787,2002-10-01,Spécial
+5730,Petit,Hugo,Femme,1971-08-16,"195, avenue Pascal, Gonzalez-la-Forêt",Ministère de l'Éducation nationale,Secrétaire d'État,170781,2015-05-14,Partiel
+6030,Garcia,Emilie,Femme,1963-02-02,"75, rue Peron, DenisBourg",Ministère de la Justice,Ministre,162787,2001-06-23,Spécial
+9425,Martin,Claire,Femme,1959-04-11,"114, chemin Humbert, Sainte Nathalie",Ministère de la Défense,Conseiller Spécial,192199,2003-12-09,Spécial
+2181,Simon,Hugo,Homme,1978-12-22,"165, rue Alix Roy, Le Gall",Ministère de l'Agriculture,Secrétaire d'État,170974,2004-08-04,Mandat plein
+7126,Dubois,Emilie,Homme,1982-05-14,"159, rue Auguste De Sousa, Courtois",Ministère de la Culture,Ministre,141275,2018-08-04,Partiel
+3053,Laurent,Emilie,Femme,1954-10-01,"146, rue Auguste De Sousa, Weiss",Ministère de l'Économie et des Finances,Haut-Commissaire,196841,2014-12-16,Spécial
+4836,Bernard,Claire,Femme,1981-10-05,"56, avenue Pascal, Le Gall",Ministère de la Défense,Secrétaire d'État,185907,2013-11-15,Mandat plein
+2922,Martin,Alice,Homme,1967-09-26,"132, rue Alix Roy, Weiss",Ministère de la Justice,Secrétaire d'État,161205,2007-09-22,Spécial
+1863,Laurent,Claire,Homme,1958-02-09,"88, rue de Bouchet, Weiss",Ministère de la Transition écologique,Conseiller Spécial,108432,2019-10-29,Partiel
+7497,David,Hugo,Femme,1957-03-01,"171, rue Frédérique Faure, Michaud-la-Forêt",Ministère de l'Agriculture,Conseiller Spécial,166251,2019-08-02,Mandat plein
+4631,Bernard,Marie,Femme,1985-09-27,"67, rue Auguste De Sousa, Weiss",Ministère des Affaires étrangères,Ambassadeur,190882,2018-05-06,Partiel
+6666,David,Julien,Femme,1968-05-22,"135, rue de Bouchet, Courtois",Ministère de la Défense,Ministre,94155,2015-02-20,Partiel
+3165,Morel,Sophie,Homme,1972-09-22,"25, rue Alix Roy, Gonzalez-la-Forêt",Ministère de l'Intérieur,Directeur de Cabinet,101368,2004-03-11,Spécial
+7102,Laurent,Hugo,Femme,1985-11-17,"53, rue Frédérique Faure, Courtois",Ministère de la Transition écologique,Haut-Commissaire,137190,2007-12-20,Partiel
+3402,Martin,Alexandre,Femme,1965-06-16,"156, rue de Bouchet, Weiss",Ministère de l'Intérieur,Conseiller Spécial,99713,2010-10-25,Spécial
+5555,Petit,Alice,Femme,1970-09-14,"62, rue Torres, Carre",Ministère de la Santé,Ministre,199166,2001-05-07,Partiel
+2284,David,Sophie,Homme,1964-03-08,"111, avenue Pascal, Courtois",Ministère de l'Économie et des Finances,Ministre,152281,2005-10-30,Mandat plein
+4665,Petit,Emilie,Femme,1964-12-20,"73, rue Frédérique Faure, Le Gall",Ministère de la Santé,Haut-Commissaire,169660,2012-10-08,Mandat plein
+8333,Durand,Sophie,Femme,1975-10-12,"191, rue Auguste De Sousa, Carre",Ministère de l'Agriculture,Ambassadeur,178352,2012-07-01,Spécial
+6427,Dubois,Jean,Femme,1970-11-22,"52, rue Auguste De Sousa, DenisBourg",Ministère de l'Intérieur,Secrétaire d'État,129195,2017-12-27,Spécial
+7908,Bernard,Emilie,Femme,1950-02-03,"32, chemin Humbert, Gonzalez-la-Forêt",Ministère de la Santé,Haut-Commissaire,169120,2019-09-18,Mandat plein
+9025,Bernard,Marie,Femme,1973-04-23,"183, rue Auguste De Sousa, Sainte Nathalie",Ministère de l'Agriculture,Ministre,165704,2004-01-14,Partiel
+7568,David,Jean,Homme,1963-10-14,"19, rue Auguste De Sousa, Courtois",Ministère des Affaires étrangères,Ministre,134097,2015-08-20,Mandat plein
+4241,Bernard,Alice,Homme,1958-01-11,"30, rue Peron, Michaud-la-Forêt",Ministère de la Santé,Ministre,192190,2000-03-30,Spécial
+4809,David,Julien,Femme,1967-05-29,"104, rue de Bouchet, Carre",Ministère de la Transition écologique,Ambassadeur,167333,2001-11-11,Mandat plein
+6071,Martin,Sophie,Femme,1978-08-06,"41, rue Alix Roy, Sainte Nathalie",Ministère de l'Agriculture,Conseiller Spécial,138926,2016-07-09,Partiel
+4430,Petit,Sophie,Femme,1953-07-02,"115, rue Alix Roy, Courtois",Ministère de l'Éducation nationale,Secrétaire d'État,170842,2004-12-22,Spécial
+2244,Morel,Jean,Homme,1978-07-21,"54, rue de Bouchet, Le Gall",Ministère de la Justice,Secrétaire d'État,191672,2012-09-26,Mandat plein
+4626,Dubois,Thomas,Femme,1958-12-01,"188, rue de Bouchet, Carre",Ministère de la Culture,Ministre,133890,2016-04-19,Mandat plein
+8874,Petit,Jean,Femme,1959-02-03,"104, chemin Humbert, Sainte Nathalie",Ministère de l'Agriculture,Ambassadeur,81678,2012-03-20,Mandat plein
+2663,David,Marie,Femme,1967-01-23,"182, rue Frédérique Faure, Le Gall",Ministère de l'Économie et des Finances,Haut-Commissaire,97632,2004-06-09,Spécial
+9610,Martin,Marie,Homme,1966-12-18,"15, rue de Bouchet, Le Gall",Ministère de l'Agriculture,Ambassadeur,116450,2016-04-27,Mandat plein
+9984,Dubois,Thomas,Homme,1957-03-04,"175, chemin Humbert, Le Gall",Ministère de la Défense,Ambassadeur,144012,2016-09-19,Spécial
+5063,Laurent,Marie,Femme,1958-02-27,"52, rue Auguste De Sousa, Weiss",Ministère de l'Éducation nationale,Conseiller Spécial,95139,2020-09-22,Mandat plein
+7835,Durand,Claire,Femme,1983-05-28,"106, rue Frédérique Faure, Michaud-la-Forêt",Ministère de la Transition écologique,Directeur de Cabinet,141249,2006-02-26,Mandat plein
+1409,David,Julien,Homme,1960-11-13,"58, chemin Humbert, Le Gall",Ministère de la Transition écologique,Haut-Commissaire,107124,2019-09-15,Mandat plein
+4257,Petit,Jean,Homme,1956-01-09,"193, rue Auguste De Sousa, Gonzalez-la-Forêt",Ministère de la Défense,Haut-Commissaire,177385,2003-06-12,Partiel
+5969,Dubois,Marie,Homme,1979-07-10,"194, rue Frédérique Faure, Courtois",Ministère de l'Économie et des Finances,Secrétaire d'État,86432,2003-01-29,Spécial
+5473,Durand,Alice,Femme,1980-01-05,"79, rue de Bouchet, Sainte Nathalie",Ministère de la Transition écologique,Secrétaire d'État,99073,2005-02-08,Partiel
+6721,David,Julien,Homme,1960-08-17,"174, rue de Bouchet, Le Gall",Ministère de la Transition écologique,Secrétaire d'État,81361,2018-10-15,Mandat plein
+2278,Durand,Claire,Femme,1976-09-30,"174, rue de Bouchet, Gonzalez-la-Forêt",Ministère de l'Éducation nationale,Directeur de Cabinet,180969,2005-07-04,Mandat plein
+6460,Dubois,Jean,Femme,1972-04-21,"25, avenue Pascal, Courtois",Ministère de la Défense,Directeur de Cabinet,87512,2016-11-19,Mandat plein
+7447,Durand,Alexandre,Homme,1976-09-02,"99, chemin Humbert, Carre",Ministère de la Défense,Haut-Commissaire,122628,2001-07-01,Partiel
+6021,Dubois,Marie,Homme,1984-05-19,"188, chemin Humbert, Le Gall",Ministère de l'Éducation nationale,Haut-Commissaire,178075,2007-08-04,Spécial
+9644,Simon,Jean,Homme,1973-07-14,"2, avenue Pascal, Sainte Nathalie",Ministère de l'Économie et des Finances,Secrétaire d'État,92049,2017-07-17,Partiel
+8869,Martin,Alexandre,Homme,1985-07-23,"70, rue Alix Roy, Gonzalez-la-Forêt",Ministère de l'Éducation nationale,Directeur de Cabinet,86343,2010-12-06,Partiel
+4057,Laurent,Marie,Femme,1973-06-09,"19, avenue Pascal, Weiss",Ministère des Affaires étrangères,Conseiller Spécial,118630,2014-09-18,Mandat plein
+3915,Simon,Thomas,Homme,1969-01-09,"166, rue Torres, DenisBourg",Ministère de la Transition écologique,Ministre,149941,2009-08-19,Mandat plein
+9939,Garcia,Claire,Homme,1972-07-29,"82, rue Alix Roy, Carre",Ministère de la Défense,Ministre,148146,2008-09-27,Mandat plein
+9343,Laurent,Alice,Femme,1983-05-31,"113, rue Torres, Le Gall",Ministère de l'Économie et des Finances,Ambassadeur,171316,2000-12-12,Partiel
+1558,Garcia,Julien,Femme,1976-11-23,"62, chemin Humbert, Carre",Ministère de l'Intérieur,Ministre,182664,2019-07-04,Mandat plein
+3316,Petit,Thomas,Homme,1956-07-17,"20, rue de Bouchet, DenisBourg",Ministère de l'Éducation nationale,Secrétaire d'État,192443,2008-10-23,Spécial
+6807,Morel,Sophie,Homme,1970-07-16,"82, rue Frédérique Faure, Michaud-la-Forêt",Ministère de l'Éducation nationale,Ministre,151105,2017-09-01,Partiel
+3687,Bernard,Emilie,Homme,1970-10-10,"132, rue de Bouchet, Gonzalez-la-Forêt",Ministère de la Culture,Conseiller Spécial,165158,2015-11-19,Partiel
+2588,Durand,Sophie,Homme,1977-09-05,"22, rue Alix Roy, Weiss",Ministère de l'Économie et des Finances,Ambassadeur,102758,2002-01-06,Partiel
+8428,Laurent,Jean,Femme,1953-09-04,"124, rue de Bouchet, Weiss",Ministère de l'Éducation nationale,Directeur de Cabinet,197422,2015-05-21,Spécial
+9572,Garcia,Alice,Homme,1963-08-09,"64, rue de Bouchet, Le Gall",Ministère des Affaires étrangères,Directeur de Cabinet,198660,2011-09-15,Spécial
+1647,Dubois,Alexandre,Homme,1968-03-11,"107, rue Frédérique Faure, Michaud-la-Forêt",Ministère de l'Économie et des Finances,Directeur de Cabinet,162799,2017-02-01,Partiel
+2738,Bernard,Emilie,Femme,1966-12-18,"54, chemin Humbert, Courtois",Ministère de l'Économie et des Finances,Conseiller Spécial,190530,2014-08-23,Mandat plein
+6821,Simon,Alexandre,Femme,1959-10-10,"136, rue Peron, Courtois",Ministère de l'Agriculture,Directeur de Cabinet,195853,2010-06-18,Spécial
+2403,Durand,Claire,Femme,1980-05-26,"68, avenue Pascal, Sainte Nathalie",Ministère de l'Intérieur,Conseiller Spécial,139161,2015-11-01,Mandat plein
+1612,Dubois,Emilie,Femme,1979-10-28,"1, avenue Pascal, Sainte Nathalie",Ministère de l'Économie et des Finances,Haut-Commissaire,133838,2008-07-04,Partiel
+9237,Petit,Julien,Homme,1971-02-17,"174, avenue Pascal, Courtois",Ministère des Affaires étrangères,Ambassadeur,82398,2019-08-10,Mandat plein
+6384,David,Marie,Femme,1985-01-26,"96, rue Peron, Weiss",Ministère de la Santé,Haut-Commissaire,107803,2010-09-05,Mandat plein
+4883,Martin,Alice,Homme,1969-08-31,"56, rue Peron, Sainte Nathalie",Ministère de la Justice,Ambassadeur,122410,2004-07-02,Partiel
+5207,Martin,Sophie,Femme,1983-09-07,"5, rue Frédérique Faure, Weiss",Ministère de la Transition écologique,Ambassadeur,169802,2011-06-04,Mandat plein
+7306,Durand,Claire,Femme,1976-12-30,"150, rue Alix Roy, Gonzalez-la-Forêt",Ministère de la Justice,Conseiller Spécial,198008,2011-08-19,Partiel
+2838,Petit,Hugo,Femme,1977-12-17,"50, rue Torres, Gonzalez-la-Forêt",Ministère de l'Économie et des Finances,Haut-Commissaire,116734,2005-06-02,Partiel
+3530,Martin,Hugo,Femme,1979-03-10,"149, avenue Pascal, Michaud-la-Forêt",Ministère de la Transition écologique,Ambassadeur,153205,2008-09-02,Spécial
+8953,Laurent,Thomas,Homme,1973-05-15,"124, rue Torres, Michaud-la-Forêt",Ministère de la Culture,Haut-Commissaire,171949,2013-11-15,Partiel
+1881,Durand,Emilie,Homme,1953-03-26,"23, rue Alix Roy, Sainte Nathalie",Ministère de la Santé,Ambassadeur,177312,2002-01-10,Spécial
+9880,Morel,Hugo,Homme,1955-04-08,"43, avenue Pascal, Courtois",Ministère de l'Économie et des Finances,Secrétaire d'État,147661,2013-12-17,Mandat plein
+3279,Garcia,Alexandre,Homme,1981-02-02,"170, rue Auguste De Sousa, Courtois",Ministère de la Transition écologique,Ambassadeur,84454,2012-05-09,Partiel
+3442,David,Hugo,Homme,1953-04-18,"45, chemin Humbert, Courtois",Ministère de l'Intérieur,Conseiller Spécial,159666,2013-02-26,Mandat plein
+4175,Durand,Alice,Femme,1962-10-08,"108, avenue Pascal, Michaud-la-Forêt",Ministère de l'Éducation nationale,Ministre,125328,2007-06-16,Spécial
+4835,David,Thomas,Homme,1983-06-29,"66, rue Peron, Courtois",Ministère des Affaires étrangères,Ambassadeur,126779,2014-04-16,Spécial
+6962,Bernard,Thomas,Homme,1983-06-10,"99, rue Torres, Courtois",Ministère de l'Intérieur,Secrétaire d'État,171486,2017-05-11,Mandat plein
+4149,Laurent,Claire,Femme,1961-10-16,"1, rue Torres, Weiss",Ministère de la Transition écologique,Conseiller Spécial,160394,2010-10-07,Spécial
+5927,Dubois,Alexandre,Homme,1966-04-19,"140, chemin Humbert, Sainte Nathalie",Ministère de la Transition écologique,Haut-Commissaire,142080,2003-09-04,Partiel
+7714,Simon,Thomas,Femme,1973-03-27,"71, rue Auguste De Sousa, Sainte Nathalie",Ministère de la Justice,Directeur de Cabinet,199409,2013-05-12,Partiel
+5796,Dubois,Marie,Homme,1970-12-21,"91, rue Frédérique Faure, Gonzalez-la-Forêt",Ministère de la Transition écologique,Secrétaire d'État,167963,2010-03-21,Spécial
+4762,Simon,Jean,Femme,1954-01-09,"17, avenue Pascal, Weiss",Ministère des Affaires étrangères,Secrétaire d'État,97610,2016-06-27,Partiel
+8244,Martin,Sophie,Homme,1969-10-22,"182, rue Alix Roy, Courtois",Ministère de la Transition écologique,Conseiller Spécial,160859,2000-10-21,Mandat plein
+2190,Dubois,Thomas,Femme,1976-12-28,"1, rue Alix Roy, Sainte Nathalie",Ministère de l'Éducation nationale,Ministre,96255,2014-02-27,Spécial
+7041,David,Sophie,Femme,1980-09-02,"195, rue Alix Roy, Michaud-la-Forêt",Ministère de l'Éducation nationale,Ambassadeur,90444,2011-08-01,Mandat plein
+7187,Simon,Marie,Homme,1978-03-13,"13, avenue Pascal, Michaud-la-Forêt",Ministère des Affaires étrangères,Haut-Commissaire,93178,2020-07-28,Partiel
+4554,Martin,Alexandre,Femme,1952-12-01,"105, chemin Humbert, Le Gall",Ministère de l'Économie et des Finances,Conseiller Spécial,137933,2008-11-13,Mandat plein
+5975,Martin,Emilie,Homme,1973-12-05,"69, rue Torres, Michaud-la-Forêt",Ministère de l'Économie et des Finances,Conseiller Spécial,87436,2016-12-18,Mandat plein
+3595,Laurent,Emilie,Homme,1978-04-25,"37, chemin Humbert, Weiss",Ministère de l'Intérieur,Ministre,189949,2001-04-15,Mandat plein
+5634,Petit,Alexandre,Femme,1951-10-04,"194, rue Peron, Sainte Nathalie",Ministère des Affaires étrangères,Haut-Commissaire,180746,2019-02-04,Spécial
+4951,Garcia,Alexandre,Homme,1983-08-04,"187, chemin Humbert, Le Gall",Ministère de l'Économie et des Finances,Ministre,129316,2003-01-29,Spécial
+5567,Dubois,Alexandre,Homme,1951-06-15,"108, chemin Humbert, Michaud-la-Forêt",Ministère de l'Éducation nationale,Secrétaire d'État,127778,2004-01-31,Mandat plein
+3416,David,Alexandre,Femme,1962-08-25,"63, rue Auguste De Sousa, Courtois",Ministère de la Culture,Directeur de Cabinet,146911,2002-07-19,Partiel
+8319,Dubois,Hugo,Femme,1977-07-21,"182, chemin Humbert, Michaud-la-Forêt",Ministère de la Défense,Directeur de Cabinet,126499,2020-04-15,Spécial
+4235,Dubois,Jean,Femme,1955-11-09,"158, avenue Pascal, Carre",Ministère de l'Éducation nationale,Ambassadeur,133976,2000-11-08,Mandat plein
+1659,Garcia,Sophie,Homme,1953-12-04,"23, rue de Bouchet, Le Gall",Ministère de l'Agriculture,Directeur de Cabinet,175509,2020-09-09,Partiel
+5075,David,Thomas,Homme,1966-08-04,"125, rue Auguste De Sousa, Michaud-la-Forêt",Ministère de l'Économie et des Finances,Haut-Commissaire,124720,2014-06-09,Partiel
+2883,Garcia,Alexandre,Homme,1985-04-11,"136, rue Peron, Michaud-la-Forêt",Ministère de l'Intérieur,Haut-Commissaire,107264,2003-11-30,Spécial
+6300,Dubois,Marie,Homme,1976-12-17,"112, rue Auguste De Sousa, Gonzalez-la-Forêt",Ministère de l'Éducation nationale,Secrétaire d'État,97275,2020-03-09,Partiel
+4900,Simon,Thomas,Femme,1980-07-20,"192, rue Auguste De Sousa, Sainte Nathalie",Ministère de la Justice,Secrétaire d'État,88021,2005-05-12,Mandat plein
+2950,Simon,Alice,Femme,1962-11-21,"137, rue Peron, Weiss",Ministère de la Transition écologique,Directeur de Cabinet,163483,2001-02-11,Partiel
+9147,Garcia,Marie,Homme,1977-08-31,"31, avenue Pascal, Carre",Ministère de la Culture,Ministre,114344,2016-03-18,Partiel
+5127,Morel,Alice,Homme,1956-07-03,"99, rue Torres, Weiss",Ministère de la Culture,Secrétaire d'État,181916,2002-02-11,Partiel
+8075,Petit,Emilie,Femme,1969-06-03,"110, avenue Pascal, Sainte Nathalie",Ministère des Affaires étrangères,Conseiller Spécial,173013,2015-08-31,Mandat plein
+4634,Garcia,Hugo,Homme,1962-12-24,"154, rue Peron, Weiss",Ministère de la Transition écologique,Conseiller Spécial,87485,2015-01-21,Spécial
+7851,Durand,Marie,Femme,1973-12-21,"83, rue Auguste De Sousa, Le Gall",Ministère de la Transition écologique,Conseiller Spécial,115274,2016-10-23,Partiel
+9557,Bernard,Emilie,Homme,1955-03-27,"181, rue Frédérique Faure, Sainte Nathalie",Ministère de l'Intérieur,Haut-Commissaire,107017,2005-04-08,Spécial
+9075,Garcia,Jean,Femme,1979-06-14,"165, rue Torres, DenisBourg",Ministère de l'Intérieur,Ambassadeur,126779,2008-05-18,Partiel
+6651,David,Sophie,Femme,1959-04-08,"123, chemin Humbert, Sainte Nathalie",Ministère de l'Intérieur,Haut-Commissaire,156408,2003-09-23,Spécial
+1349,Dubois,Jean,Homme,1980-01-01,"173, chemin Humbert, DenisBourg",Ministère de l'Économie et des Finances,Ministre,113137,2010-10-26,Partiel
+5344,Laurent,Alexandre,Homme,1982-03-25,"150, chemin Humbert, Carre",Ministère de la Transition écologique,Ministre,93978,2009-08-25,Partiel
+5774,Garcia,Marie,Homme,1981-09-26,"127, rue Alix Roy, DenisBourg",Ministère de la Justice,Directeur de Cabinet,124060,2019-03-22,Mandat plein
+8599,Durand,Alice,Femme,1978-09-05,"47, rue Auguste De Sousa, DenisBourg",Ministère des Affaires étrangères,Secrétaire d'État,142308,2011-02-25,Spécial
+7510,Laurent,Claire,Femme,1978-09-15,"95, rue Alix Roy, Weiss",Ministère de la Santé,Ministre,116593,2005-08-06,Partiel
+9266,David,Jean,Homme,1950-10-25,"22, rue Alix Roy, Gonzalez-la-Forêt",Ministère de l'Agriculture,Ambassadeur,180854,2008-01-08,Partiel
+1215,Garcia,Claire,Femme,1966-08-17,"177, rue Frédérique Faure, Michaud-la-Forêt",Ministère de l'Économie et des Finances,Secrétaire d'État,180855,2001-07-04,Spécial
+6136,Garcia,Julien,Homme,1961-01-24,"176, rue Frédérique Faure, Carre",Ministère de la Culture,Directeur de Cabinet,83775,2003-04-25,Spécial
+6644,Morel,Jean,Femme,1984-06-16,"56, rue Alix Roy, Sainte Nathalie",Ministère de la Culture,Ministre,104835,2018-08-27,Mandat plein
+4077,Garcia,Emilie,Femme,1968-09-04,"17, rue Auguste De Sousa, Le Gall",Ministère des Affaires étrangères,Secrétaire d'État,198069,2017-12-09,Mandat plein
+1426,Durand,Emilie,Femme,1983-07-10,"93, rue Frédérique Faure, Sainte Nathalie",Ministère de l'Intérieur,Conseiller Spécial,193029,2015-02-25,Spécial

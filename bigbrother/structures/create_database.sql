@@ -13,3 +13,7 @@ WITH ENCODING 'UTF8'
 OWNER alexandrehergaux;
 
 \c bigbrother
+
+CREATE EXTENSION IF NOT EXISTS unaccent;
+
+
