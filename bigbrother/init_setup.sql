@@ -6,11 +6,12 @@
 
 
 \i structures/create_database.sql
-\i fonctions/fonction.sql
 \i fonctions/fonction_manip.sql
+\i fonctions/fonction.sql
 \i structures/tablesdefinition.sql
 \i structures/tablesinitiale.sql
+\i structures/tablelog.sql
 \i data/init_data.sql
-\i data/data_manip.sql
+\i data/data_file.sql
 \i view/view.sql
 

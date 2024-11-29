@@ -8,9 +8,7 @@
 
 DROP DATABASE IF EXISTS bigbrother;
 
-CREATE DATABASE bigbrother
-WITH ENCODING 'UTF8'
-OWNER alexandrehergaux;
+CREATE DATABASE bigbrother;
 
 \c bigbrother
 

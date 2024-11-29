@@ -1,0 +1,201 @@
+nom TEXT,prenom TEXT,date_naissance date,genre TEXT,adresse TEXT,groupe_sanguin TEXT,condition_medicale TEXT,date_diagnostic DATE,traitement TEXT,medecin TEXT,hopital TEXT
+Moreau,Luc,2003-09-13,Homme,"186, rue Auguste De Sousa, Montpellier",A-,Trouble bipolaire,2012-02-07,Rééducation,Dr. Bernard,Hôpital Cochin
+Martin,Paul,1972-06-02,Homme,"126, rue Alix Roy, Nice",O-,Cancer,2004-05-12,Greffe,Dr. Moreau,Hôpital Saint-Louis
+Faure,Jean,1991-10-31,Homme,"141, rue Alix Roy, Toulouse",B+,Allergies,2002-12-17,Rééducation,Dr. Bernard,Hôpital Necker
+Moreau,Julie,1989-09-04,Homme,"69, rue Auguste De Sousa, Marseille",B+,Anémie,2000-02-12,Médication,Dr. Bernard,CHU de Lyon
+Martin,Claire,1967-09-09,Femme,"76, rue Alix Roy, Lyon",B+,Anémie,2001-09-09,Rééducation,Dr. Bernard,Hôpital Necker
+Blanc,Sophie,1971-04-18,Femme,"9, rue Alix Roy, Paris",AB+,Anémie,2010-09-12,Radiothérapie,Dr. Durand,Hôpital Saint-Louis
+Bernard,Claire,1975-11-07,Homme,"60, rue Auguste De Sousa, Toulouse",B+,Arthrite,2016-11-06,Médication,Dr. Moreau,Hôpital Européen
+Bernard,Paul,1957-02-08,Homme,"151, rue Auguste De Sousa, Nantes",A+,Diabète,2014-11-13,Rééducation,Dr. Bernard,Hôpital Necker
+Moreau,Pierre,1963-07-26,Femme,"1, chemin Humbert, Nice",B-,Hypertension,2007-08-18,Chirurgie,Dr. Moreau,CHU de Lyon
+Roux,Pierre,1958-12-27,Homme,"120, rue Auguste De Sousa, Lyon",A-,Maladie cardiaque,2022-01-05,Médication,Dr. Dupont,Hôpital Européen
+Martin,Julie,1980-08-20,Femme,"72, chemin Humbert, Strasbourg",A-,Anémie,2018-12-11,Vaccination,Dr. Dupont,Hôpital Cochin
+Dupont,Claire,1988-09-05,Femme,"77, chemin Humbert, Marseille",AB-,Dépression,2020-07-08,Rééducation,Dr. Moreau,Hôpital Saint-Louis
+Durand,Camille,2008-01-02,Homme,"66, chemin Humbert, Lyon",O-,Diabète,2007-08-23,Suivi régulier,Dr. Durand,Hôpital Saint-Louis
+Moreau,Paul,2006-02-15,Femme,"145, rue Torres, Nice",AB+,Asthme,2005-10-17,Chirurgie,Dr. Bernard,Hôpital Cochin
+Blanc,Antoine,1969-03-23,Homme,"38, rue Auguste De Sousa, Marseille",B+,Diabète,2008-09-16,Greffe,Dr. Bernard,Hôpital Saint-Louis
+Durand,Claire,1977-03-12,Homme,"82, rue Torres, Nantes",A+,Arthrite,2021-02-05,Chimiothérapie,Dr. Bernard,Hôpital Européen
+Garnier,Julie,1955-09-05,Homme,"90, rue Torres, Nantes",O-,Diabète,2015-08-04,Chimiothérapie,Dr. Moreau,Hôpital Européen
+Roux,Julie,2004-05-27,Homme,"3, rue Torres, Strasbourg",B-,Maladie cardiaque,2003-11-17,Vaccination,Dr. Dupont,CHU de Lyon
+Durand,Marie,1989-01-28,Femme,"23, chemin Humbert, Lyon",AB+,Trouble bipolaire,2001-11-26,Chirurgie,Dr. Moreau,Hôpital Européen
+Moreau,Luc,1975-04-02,Homme,"56, rue Auguste De Sousa, Toulouse",AB+,Dépression,2008-01-24,Chirurgie,Dr. Durand,Hôpital Necker
+Dupont,Sophie,1950-07-02,Homme,"90, avenue Pascal, Paris",O+,Dépression,2007-04-18,Suivi régulier,Dr. Durand,Hôpital Saint-Louis
+Petit,Luc,1984-07-02,Femme,"52, rue Auguste De Sousa, Toulouse",A-,Arthrite,2003-06-01,Greffe,Dr. Durand,Hôpital Necker
+Moreau,Pierre,1979-06-10,Femme,"84, rue Peron, Paris",A+,Asthme,2015-03-15,Médication,Dr. Martin,Hôpital Européen
+Moreau,Julie,1950-12-09,Femme,"90, avenue Pascal, Lyon",AB-,Allergies,2006-05-10,Vaccination,Dr. Martin,Hôpital Européen
+Moreau,Paul,1968-04-28,Femme,"51, chemin Humbert, Marseille",A-,Diabète,2016-03-19,Médication,Dr. Dupont,CHU de Lyon
+Roux,Luc,1999-08-14,Femme,"136, chemin Humbert, Nantes",B-,Diabète,2011-11-26,Radiothérapie,Dr. Martin,Hôpital Cochin
+Blanc,Julie,2000-08-18,Homme,"80, rue Peron, Montpellier",B+,Allergies,2001-12-23,Dialyse,Dr. Moreau,Hôpital Cochin
+Faure,Sophie,2001-08-19,Femme,"25, rue Peron, Lyon",O+,Arthrite,2009-01-06,Radiothérapie,Dr. Martin,Hôpital Européen
+Blanc,Julie,2004-09-22,Femme,"12, avenue Pascal, Montpellier",AB-,Hypertension,2017-09-23,Thérapie,Dr. Moreau,Hôpital Cochin
+Moreau,Marie,1965-03-07,Femme,"121, avenue Pascal, Marseille",B-,Arthrite,2021-12-12,Chimiothérapie,Dr. Durand,Hôpital Européen
+Petit,Antoine,1994-10-07,Homme,"78, rue Peron, Montpellier",A-,Cancer,2001-07-01,Dialyse,Dr. Durand,Hôpital Européen
+Martin,Camille,1970-06-15,Femme,"34, rue Torres, Lyon",AB-,Maladie cardiaque,2013-01-28,Médication,Dr. Dupont,Hôpital Cochin
+Roux,Camille,1959-01-05,Femme,"27, chemin Humbert, Montpellier",AB+,Hypertension,2016-05-11,Suivi régulier,Dr. Durand,Hôpital Européen
+Roux,Pierre,1952-05-13,Femme,"33, rue Auguste De Sousa, Marseille",AB-,Trouble bipolaire,2016-12-12,Dialyse,Dr. Dupont,Hôpital Cochin
+Roux,Julie,1960-06-14,Homme,"8, avenue Pascal, Toulouse",B+,Hypertension,2020-08-11,Chirurgie,Dr. Durand,Hôpital Saint-Louis
+Roux,Sophie,1985-07-17,Homme,"51, rue Torres, Nice",O-,Cancer,2016-10-22,Vaccination,Dr. Durand,Hôpital Necker
+Martin,Marie,2009-06-28,Femme,"84, avenue Pascal, Nice",AB-,Anémie,2015-10-14,Radiothérapie,Dr. Dupont,Hôpital Cochin
+Bernard,Camille,1988-04-22,Homme,"49, avenue Pascal, Toulouse",AB+,Allergies,2007-03-19,Rééducation,Dr. Moreau,Hôpital Cochin
+Martin,Sophie,2004-09-09,Homme,"11, avenue Pascal, Montpellier",O+,Cancer,2006-01-10,Suivi régulier,Dr. Martin,Hôpital Saint-Louis
+Roux,Luc,1957-10-23,Femme,"111, rue Peron, Lyon",O-,Dépression,2019-05-02,Chimiothérapie,Dr. Dupont,Hôpital Saint-Louis
+Roux,Antoine,1962-04-18,Homme,"71, chemin Humbert, Toulouse",A+,Trouble bipolaire,2008-08-26,Thérapie,Dr. Martin,Hôpital Saint-Louis
+Faure,Camille,1974-03-01,Homme,"191, rue Peron, Paris",B+,Diabète,2014-07-21,Greffe,Dr. Bernard,Hôpital Saint-Louis
+Roux,Claire,1984-11-14,Femme,"97, rue Torres, Montpellier",O+,Anémie,2014-10-03,Chimiothérapie,Dr. Moreau,Hôpital Cochin
+Durand,Claire,1995-09-20,Femme,"170, rue Auguste De Sousa, Marseille",A+,Cancer,2008-08-30,Médication,Dr. Martin,Hôpital Cochin
+Durand,Camille,2008-10-23,Femme,"71, rue Auguste De Sousa, Montpellier",AB-,Maladie cardiaque,2005-06-20,Thérapie,Dr. Moreau,Hôpital Cochin
+Roux,Camille,1965-03-26,Homme,"89, avenue Pascal, Paris",O+,Arthrite,2015-11-23,Suivi régulier,Dr. Martin,Hôpital Saint-Louis
+Moreau,Julie,1969-07-26,Femme,"4, chemin Humbert, Strasbourg",O+,Cancer,2017-07-25,Médication,Dr. Martin,Hôpital Cochin
+Garnier,Claire,2007-11-26,Femme,"130, avenue Pascal, Paris",AB-,Dépression,2014-11-16,Médication,Dr. Durand,Hôpital Saint-Louis
+Petit,Antoine,1987-10-11,Femme,"44, rue Auguste De Sousa, Nice",O+,Dépression,2010-02-04,Médication,Dr. Moreau,CHU de Lyon
+Bernard,Luc,2006-10-24,Homme,"25, rue Peron, Paris",A+,Allergies,2000-12-23,Médication,Dr. Dupont,Hôpital Saint-Louis
+Durand,Jean,1987-09-23,Femme,"24, rue Alix Roy, Strasbourg",AB+,Asthme,2021-02-21,Dialyse,Dr. Dupont,CHU de Lyon
+Dupont,Jean,1953-11-04,Homme,"158, rue Auguste De Sousa, Nantes",B-,Hypertension,2022-06-17,Suivi régulier,Dr. Martin,Hôpital Saint-Louis
+Martin,Luc,1969-04-01,Femme,"116, rue Torres, Nice",A-,Allergies,2000-07-27,Suivi régulier,Dr. Durand,Hôpital Cochin
+Bernard,Pierre,1954-10-07,Femme,"184, rue Torres, Toulouse",A+,Hypertension,2020-06-07,Chimiothérapie,Dr. Martin,Hôpital Necker
+Faure,Sophie,1994-10-31,Femme,"55, rue Alix Roy, Strasbourg",O-,Maladie cardiaque,2020-03-17,Médication,Dr. Martin,Hôpital Cochin
+Moreau,Julie,2007-07-10,Homme,"81, rue Auguste De Sousa, Lyon",A-,Trouble bipolaire,2002-11-12,Dialyse,Dr. Durand,CHU de Lyon
+Moreau,Luc,1961-05-15,Homme,"130, rue Torres, Toulouse",B-,Trouble bipolaire,2000-08-05,Chimiothérapie,Dr. Bernard,CHU de Lyon
+Roux,Paul,1965-12-31,Femme,"63, chemin Humbert, Nantes",A+,Anémie,2022-03-17,Rééducation,Dr. Martin,Hôpital Cochin
+Faure,Camille,2008-07-11,Homme,"122, rue Peron, Strasbourg",B+,Hypertension,2022-07-04,Chirurgie,Dr. Moreau,CHU de Lyon
+Garnier,Julie,1972-08-29,Homme,"56, chemin Humbert, Montpellier",B+,Hypertension,2004-04-03,Dialyse,Dr. Durand,Hôpital Cochin
+Dupont,Antoine,2002-09-09,Homme,"126, rue Auguste De Sousa, Montpellier",A-,Hypertension,2002-09-28,Thérapie,Dr. Durand,CHU de Lyon
+Moreau,Sophie,1972-05-07,Homme,"14, rue Peron, Nice",O+,Maladie cardiaque,2001-05-10,Médication,Dr. Durand,Hôpital Cochin
+Roux,Julie,1964-10-10,Femme,"21, rue Auguste De Sousa, Marseille",B+,Maladie cardiaque,2008-08-29,Greffe,Dr. Dupont,Hôpital Européen
+Faure,Jean,1964-12-13,Homme,"94, chemin Humbert, Marseille",B+,Hypertension,2000-05-13,Thérapie,Dr. Bernard,Hôpital Cochin
+Blanc,Sophie,1973-09-01,Femme,"98, avenue Pascal, Marseille",A+,Asthme,2007-01-20,Rééducation,Dr. Martin,CHU de Lyon
+Bernard,Sophie,1962-08-02,Femme,"93, rue Torres, Strasbourg",AB-,Dépression,2016-08-07,Vaccination,Dr. Martin,Hôpital Européen
+Dupont,Luc,1999-07-03,Homme,"7, rue Auguste De Sousa, Nantes",A+,Diabète,2002-01-07,Chirurgie,Dr. Bernard,Hôpital Cochin
+Moreau,Julie,2005-02-06,Homme,"90, rue Alix Roy, Nice",A+,Trouble bipolaire,2015-04-11,Rééducation,Dr. Bernard,CHU de Lyon
+Roux,Marie,1981-01-18,Femme,"59, avenue Pascal, Nantes",AB+,Anémie,2000-11-01,Suivi régulier,Dr. Dupont,Hôpital Necker
+Garnier,Luc,1995-04-21,Femme,"15, rue Auguste De Sousa, Paris",AB+,Maladie cardiaque,2020-10-14,Chimiothérapie,Dr. Dupont,CHU de Lyon
+Durand,Claire,2004-07-10,Femme,"154, rue Alix Roy, Montpellier",A-,Allergies,2010-03-07,Thérapie,Dr. Bernard,CHU de Lyon
+Garnier,Paul,1998-07-18,Homme,"31, rue Alix Roy, Montpellier",O-,Allergies,2008-06-28,Chirurgie,Dr. Martin,CHU de Lyon
+Roux,Pierre,1960-12-08,Homme,"74, rue Auguste De Sousa, Nice",O+,Dépression,2015-07-07,Rééducation,Dr. Bernard,Hôpital Européen
+Petit,Marie,1984-08-30,Femme,"187, rue Torres, Montpellier",O+,Trouble bipolaire,2002-07-11,Dialyse,Dr. Martin,Hôpital Necker
+Moreau,Claire,1961-10-23,Femme,"174, chemin Humbert, Montpellier",AB-,Maladie cardiaque,2022-01-05,Vaccination,Dr. Moreau,Hôpital Cochin
+Moreau,Camille,1958-03-06,Femme,"136, rue Peron, Paris",O+,Trouble bipolaire,2019-02-25,Suivi régulier,Dr. Dupont,Hôpital Saint-Louis
+Durand,Marie,1999-07-06,Homme,"87, rue Alix Roy, Strasbourg",AB+,Anémie,2019-10-15,Chirurgie,Dr. Dupont,CHU de Lyon
+Blanc,Sophie,1959-09-05,Femme,"13, rue Alix Roy, Strasbourg",B+,Trouble bipolaire,2010-08-19,Radiothérapie,Dr. Dupont,Hôpital Saint-Louis
+Faure,Antoine,1952-06-20,Femme,"101, rue Peron, Nantes",B-,Cancer,2012-06-14,Dialyse,Dr. Dupont,Hôpital Cochin
+Petit,Camille,2001-03-13,Femme,"131, rue Alix Roy, Paris",AB+,Arthrite,2001-03-26,Chirurgie,Dr. Moreau,Hôpital Saint-Louis
+Durand,Sophie,2010-02-13,Femme,"116, rue Torres, Paris",AB-,Dépression,2003-08-08,Chimiothérapie,Dr. Durand,Hôpital Necker
+Roux,Camille,2002-04-29,Homme,"103, rue Torres, Nantes",A+,Trouble bipolaire,2015-07-31,Greffe,Dr. Dupont,Hôpital Cochin
+Roux,Sophie,1972-05-08,Homme,"115, rue Alix Roy, Marseille",B+,Diabète,2010-04-15,Thérapie,Dr. Martin,Hôpital Cochin
+Garnier,Julie,2004-01-09,Femme,"95, avenue Pascal, Paris",B+,Cancer,2003-10-09,Chirurgie,Dr. Durand,Hôpital Saint-Louis
+Garnier,Julie,1961-09-22,Homme,"77, rue Peron, Toulouse",A-,Anémie,2013-01-11,Chirurgie,Dr. Bernard,Hôpital Européen
+Martin,Paul,1969-11-25,Homme,"7, rue Alix Roy, Marseille",A+,Arthrite,2000-10-18,Dialyse,Dr. Moreau,Hôpital Cochin
+Roux,Claire,1967-01-29,Homme,"42, rue Torres, Strasbourg",O+,Anémie,2002-09-08,Radiothérapie,Dr. Moreau,Hôpital Necker
+Bernard,Camille,2005-09-23,Homme,"32, rue Torres, Strasbourg",AB+,Asthme,2017-12-27,Chimiothérapie,Dr. Dupont,Hôpital Européen
+Faure,Claire,1951-05-03,Femme,"37, chemin Humbert, Paris",O+,Allergies,2006-02-01,Radiothérapie,Dr. Durand,Hôpital Necker
+Bernard,Julie,2006-11-08,Homme,"99, rue Peron, Marseille",O-,Anémie,2016-11-28,Rééducation,Dr. Dupont,CHU de Lyon
+Faure,Luc,2009-08-06,Femme,"141, avenue Pascal, Strasbourg",B+,Allergies,2018-07-09,Radiothérapie,Dr. Bernard,Hôpital Européen
+Moreau,Paul,1955-09-08,Homme,"93, rue Torres, Lyon",A-,Allergies,2021-04-09,Thérapie,Dr. Moreau,Hôpital Européen
+Faure,Julie,1956-07-12,Homme,"174, rue Peron, Montpellier",AB-,Dépression,2022-03-16,Suivi régulier,Dr. Martin,Hôpital Cochin
+Moreau,Marie,1975-09-25,Homme,"131, rue Auguste De Sousa, Paris",B+,Asthme,2017-05-03,Chirurgie,Dr. Dupont,CHU de Lyon
+Petit,Marie,1970-10-20,Homme,"92, rue Auguste De Sousa, Marseille",O+,Trouble bipolaire,2020-09-30,Dialyse,Dr. Bernard,Hôpital Saint-Louis
+Moreau,Pierre,1952-05-05,Homme,"14, chemin Humbert, Nantes",A-,Arthrite,2008-02-09,Dialyse,Dr. Bernard,Hôpital Européen
+Durand,Claire,2008-03-10,Homme,"47, rue Torres, Nantes",A-,Allergies,2003-04-28,Dialyse,Dr. Dupont,Hôpital Européen
+Moreau,Pierre,1956-08-12,Femme,"164, rue Alix Roy, Montpellier",O-,Diabète,2022-05-13,Greffe,Dr. Moreau,Hôpital Saint-Louis
+Blanc,Sophie,1983-12-08,Homme,"125, rue Torres, Montpellier",AB-,Dépression,2000-08-11,Greffe,Dr. Durand,Hôpital Saint-Louis
+Roux,Paul,2005-01-05,Femme,"30, avenue Pascal, Montpellier",A-,Diabète,2009-09-27,Médication,Dr. Bernard,Hôpital Necker
+Bernard,Camille,1952-07-22,Homme,"100, rue Alix Roy, Lyon",AB-,Allergies,2015-02-18,Thérapie,Dr. Moreau,Hôpital Saint-Louis
+Martin,Jean,2002-12-17,Homme,"38, avenue Pascal, Marseille",A+,Trouble bipolaire,2016-07-19,Thérapie,Dr. Bernard,Hôpital Cochin
+Durand,Pierre,1983-01-08,Homme,"69, avenue Pascal, Paris",AB-,Arthrite,2011-12-27,Chirurgie,Dr. Martin,CHU de Lyon
+Roux,Julie,1993-03-21,Femme,"29, rue Peron, Paris",A-,Cancer,2010-07-01,Suivi régulier,Dr. Martin,Hôpital Necker
+Martin,Camille,1967-02-23,Homme,"90, chemin Humbert, Nantes",B+,Allergies,2002-03-14,Chimiothérapie,Dr. Bernard,Hôpital Européen
+Moreau,Julie,1994-08-08,Femme,"65, avenue Pascal, Nantes",B-,Diabète,2002-07-08,Rééducation,Dr. Durand,Hôpital Cochin
+Moreau,Paul,1960-12-09,Homme,"149, rue Auguste De Sousa, Paris",A+,Anémie,2022-06-02,Radiothérapie,Dr. Dupont,Hôpital Necker
+Garnier,Pierre,1965-01-03,Homme,"63, rue Auguste De Sousa, Paris",A-,Anémie,2003-10-26,Vaccination,Dr. Durand,Hôpital Saint-Louis
+Blanc,Antoine,1980-01-24,Femme,"21, avenue Pascal, Montpellier",AB-,Trouble bipolaire,2013-11-14,Chirurgie,Dr. Dupont,Hôpital Saint-Louis
+Petit,Camille,2008-11-23,Femme,"25, rue Alix Roy, Paris",B-,Anémie,2015-12-28,Radiothérapie,Dr. Dupont,Hôpital Saint-Louis
+Moreau,Paul,1955-02-13,Femme,"101, rue Torres, Strasbourg",A+,Anémie,2020-04-28,Médication,Dr. Martin,Hôpital Saint-Louis
+Dupont,Jean,1967-03-27,Femme,"91, rue Torres, Strasbourg",AB+,Diabète,2001-10-16,Radiothérapie,Dr. Dupont,Hôpital Européen
+Faure,Antoine,1988-05-30,Homme,"20, rue Auguste De Sousa, Strasbourg",AB-,Dépression,2008-03-01,Chirurgie,Dr. Durand,Hôpital Saint-Louis
+Durand,Julie,1994-08-28,Femme,"60, rue Auguste De Sousa, Paris",B+,Diabète,2019-07-08,Médication,Dr. Dupont,CHU de Lyon
+Roux,Luc,1966-11-08,Homme,"123, rue Auguste De Sousa, Nantes",A-,Maladie cardiaque,2011-04-18,Dialyse,Dr. Martin,Hôpital Cochin
+Faure,Julie,1984-03-21,Femme,"153, rue Peron, Paris",AB+,Allergies,2008-11-15,Suivi régulier,Dr. Dupont,Hôpital Necker
+Blanc,Jean,1978-01-10,Femme,"159, avenue Pascal, Nice",AB+,Arthrite,2000-05-23,Médication,Dr. Durand,Hôpital Européen
+Martin,Julie,2001-06-30,Homme,"104, rue Auguste De Sousa, Toulouse",AB+,Dépression,2014-03-29,Greffe,Dr. Martin,Hôpital Necker
+Faure,Luc,1963-02-01,Femme,"34, avenue Pascal, Paris",O+,Cancer,2022-12-21,Vaccination,Dr. Dupont,Hôpital Européen
+Bernard,Luc,1978-12-14,Femme,"75, rue Auguste De Sousa, Montpellier",AB-,Allergies,2015-05-07,Radiothérapie,Dr. Martin,CHU de Lyon
+Durand,Sophie,2000-12-06,Femme,"9, chemin Humbert, Strasbourg",AB-,Arthrite,2014-05-09,Médication,Dr. Moreau,Hôpital Européen
+Durand,Luc,1992-04-06,Homme,"26, rue Torres, Montpellier",O+,Maladie cardiaque,2017-08-25,Rééducation,Dr. Martin,Hôpital Européen
+Durand,Paul,1985-07-03,Femme,"42, chemin Humbert, Nantes",O-,Diabète,2009-04-01,Chirurgie,Dr. Dupont,Hôpital Cochin
+Garnier,Julie,1992-10-10,Femme,"14, chemin Humbert, Montpellier",AB+,Asthme,2017-10-27,Dialyse,Dr. Dupont,Hôpital Européen
+Roux,Julie,2007-06-02,Femme,"152, chemin Humbert, Strasbourg",A-,Anémie,2007-11-22,Dialyse,Dr. Martin,Hôpital Saint-Louis
+Bernard,Pierre,1993-05-10,Femme,"46, rue Torres, Toulouse",AB-,Trouble bipolaire,2008-08-23,Greffe,Dr. Bernard,CHU de Lyon
+Moreau,Julie,2010-01-14,Femme,"25, chemin Humbert, Paris",O+,Hypertension,2020-11-26,Suivi régulier,Dr. Bernard,Hôpital Cochin
+Roux,Sophie,2008-12-25,Homme,"51, avenue Pascal, Lyon",A+,Cancer,2013-06-27,Greffe,Dr. Dupont,CHU de Lyon
+Martin,Luc,1972-06-20,Homme,"39, rue Auguste De Sousa, Marseille",O+,Trouble bipolaire,2004-04-22,Dialyse,Dr. Bernard,Hôpital Saint-Louis
+Garnier,Luc,1981-10-27,Femme,"174, rue Torres, Toulouse",AB-,Maladie cardiaque,2006-10-09,Greffe,Dr. Bernard,Hôpital Saint-Louis
+Martin,Camille,1999-08-10,Femme,"42, avenue Pascal, Montpellier",O-,Hypertension,2000-01-03,Chimiothérapie,Dr. Durand,CHU de Lyon
+Dupont,Luc,1973-07-04,Femme,"125, rue Torres, Strasbourg",AB+,Trouble bipolaire,2020-03-14,Médication,Dr. Dupont,Hôpital Necker
+Moreau,Luc,2005-07-01,Homme,"77, chemin Humbert, Marseille",O-,Diabète,2003-07-29,Vaccination,Dr. Durand,CHU de Lyon
+Garnier,Camille,1951-03-21,Homme,"192, rue Peron, Toulouse",A-,Allergies,2019-06-23,Thérapie,Dr. Durand,Hôpital Européen
+Moreau,Antoine,1968-05-04,Femme,"103, rue Alix Roy, Lyon",A-,Cancer,2006-05-23,Vaccination,Dr. Moreau,Hôpital Necker
+Bernard,Camille,1991-06-02,Femme,"141, rue Peron, Marseille",A-,Diabète,2004-04-24,Vaccination,Dr. Moreau,Hôpital Saint-Louis
+Faure,Julie,1954-03-06,Homme,"125, avenue Pascal, Strasbourg",B-,Anémie,2011-06-07,Médication,Dr. Martin,Hôpital Européen
+Garnier,Jean,1959-06-18,Homme,"64, rue Torres, Nantes",O-,Asthme,2010-09-14,Radiothérapie,Dr. Moreau,Hôpital Européen
+Blanc,Jean,1968-04-29,Femme,"156, rue Torres, Strasbourg",A-,Trouble bipolaire,2018-07-08,Thérapie,Dr. Bernard,Hôpital Necker
+Martin,Paul,1981-02-27,Femme,"193, avenue Pascal, Nice",AB+,Hypertension,2022-09-22,Greffe,Dr. Moreau,Hôpital Cochin
+Blanc,Jean,1954-03-28,Femme,"118, avenue Pascal, Nice",AB+,Diabète,2020-01-08,Médication,Dr. Dupont,Hôpital Saint-Louis
+Bernard,Paul,1955-05-04,Femme,"98, avenue Pascal, Paris",A-,Dépression,2008-04-08,Radiothérapie,Dr. Moreau,Hôpital Saint-Louis
+Petit,Jean,1975-04-17,Femme,"97, rue Auguste De Sousa, Lyon",O+,Arthrite,2003-02-14,Chimiothérapie,Dr. Moreau,CHU de Lyon
+Garnier,Sophie,1971-08-12,Homme,"77, rue Torres, Paris",A+,Allergies,2015-01-21,Suivi régulier,Dr. Dupont,Hôpital Necker
+Bernard,Claire,2006-07-17,Homme,"118, rue Alix Roy, Strasbourg",B+,Arthrite,2009-11-19,Médication,Dr. Durand,CHU de Lyon
+Faure,Sophie,2000-07-14,Homme,"163, rue Peron, Nice",B+,Asthme,2015-02-11,Chirurgie,Dr. Martin,Hôpital Necker
+Durand,Marie,1965-05-25,Femme,"52, avenue Pascal, Nice",A-,Anémie,2011-07-18,Chirurgie,Dr. Martin,Hôpital Saint-Louis
+Durand,Jean,1972-09-13,Femme,"149, rue Alix Roy, Montpellier",AB+,Diabète,2016-11-24,Thérapie,Dr. Moreau,Hôpital Européen
+Dupont,Julie,2007-02-28,Femme,"106, rue Alix Roy, Montpellier",AB-,Dépression,2012-05-09,Dialyse,Dr. Moreau,Hôpital Saint-Louis
+Durand,Claire,1998-09-20,Homme,"63, rue Torres, Toulouse",A+,Allergies,2022-03-01,Radiothérapie,Dr. Durand,CHU de Lyon
+Garnier,Marie,1962-06-12,Homme,"61, rue Torres, Nice",A-,Cancer,2015-04-22,Dialyse,Dr. Moreau,Hôpital Necker
+Moreau,Sophie,1996-05-15,Femme,"168, rue Torres, Lyon",B+,Trouble bipolaire,2014-07-31,Vaccination,Dr. Durand,CHU de Lyon
+Blanc,Paul,2006-01-25,Homme,"107, rue Auguste De Sousa, Nice",B+,Allergies,2010-11-09,Suivi régulier,Dr. Dupont,Hôpital Saint-Louis
+Roux,Antoine,1950-05-31,Homme,"58, rue Alix Roy, Toulouse",O-,Diabète,2018-12-05,Chirurgie,Dr. Durand,Hôpital Cochin
+Moreau,Pierre,2006-05-31,Homme,"46, rue Torres, Nantes",A-,Maladie cardiaque,2008-08-18,Greffe,Dr. Martin,Hôpital Necker
+Dupont,Claire,1952-10-26,Femme,"190, chemin Humbert, Toulouse",A-,Anémie,2011-03-20,Suivi régulier,Dr. Durand,Hôpital Européen
+Blanc,Claire,1990-02-12,Femme,"63, chemin Humbert, Paris",B-,Diabète,2003-05-04,Chirurgie,Dr. Dupont,Hôpital Saint-Louis
+Blanc,Claire,1975-08-18,Homme,"137, rue Alix Roy, Nice",A-,Diabète,2012-04-15,Dialyse,Dr. Bernard,Hôpital Necker
+Faure,Sophie,1973-03-14,Homme,"159, rue Torres, Toulouse",B+,Allergies,2002-04-19,Dialyse,Dr. Durand,Hôpital Cochin
+Roux,Claire,1983-03-22,Femme,"24, chemin Humbert, Montpellier",B-,Trouble bipolaire,2003-04-07,Radiothérapie,Dr. Durand,Hôpital Necker
+Faure,Julie,2000-05-05,Femme,"158, chemin Humbert, Nice",O-,Diabète,2010-07-24,Chimiothérapie,Dr. Dupont,Hôpital Necker
+Martin,Sophie,1979-10-24,Homme,"42, rue Alix Roy, Strasbourg",O+,Arthrite,2003-12-18,Suivi régulier,Dr. Martin,Hôpital Européen
+Bernard,Pierre,1964-10-05,Homme,"120, rue Torres, Montpellier",AB+,Diabète,2006-07-19,Dialyse,Dr. Bernard,Hôpital Saint-Louis
+Dupont,Marie,1952-03-29,Homme,"20, rue Peron, Strasbourg",AB-,Allergies,2003-02-19,Rééducation,Dr. Moreau,Hôpital Necker
+Petit,Luc,1976-07-08,Homme,"137, chemin Humbert, Paris",O+,Allergies,2020-06-07,Chimiothérapie,Dr. Dupont,Hôpital Européen
+Durand,Jean,1999-12-30,Homme,"180, avenue Pascal, Toulouse",O-,Asthme,2013-12-17,Radiothérapie,Dr. Durand,Hôpital Saint-Louis
+Moreau,Marie,1990-08-27,Homme,"49, avenue Pascal, Marseille",B-,Diabète,2012-11-23,Radiothérapie,Dr. Durand,Hôpital Necker
+Bernard,Camille,1970-09-18,Homme,"4, chemin Humbert, Lyon",AB-,Asthme,2008-05-30,Dialyse,Dr. Martin,CHU de Lyon
+Blanc,Pierre,2005-05-02,Femme,"176, chemin Humbert, Nice",AB+,Arthrite,2010-04-07,Suivi régulier,Dr. Moreau,Hôpital Necker
+Faure,Julie,1979-03-29,Femme,"90, rue Peron, Montpellier",B+,Anémie,2002-05-04,Médication,Dr. Dupont,Hôpital Necker
+Garnier,Jean,1951-08-10,Homme,"151, rue Torres, Marseille",AB-,Maladie cardiaque,2000-08-22,Chimiothérapie,Dr. Martin,Hôpital Necker
+Dupont,Pierre,2006-04-11,Homme,"182, rue Torres, Nantes",A-,Anémie,2002-08-01,Dialyse,Dr. Martin,Hôpital Saint-Louis
+Petit,Sophie,1972-09-29,Homme,"19, avenue Pascal, Nantes",AB-,Anémie,2010-08-14,Dialyse,Dr. Bernard,Hôpital Saint-Louis
+Moreau,Pierre,1952-11-04,Femme,"83, rue Alix Roy, Strasbourg",B-,Maladie cardiaque,2013-03-21,Médication,Dr. Durand,CHU de Lyon
+Blanc,Paul,1983-05-11,Homme,"136, avenue Pascal, Marseille",AB-,Cancer,2017-10-24,Chirurgie,Dr. Dupont,Hôpital Européen
+Bernard,Jean,1998-11-01,Femme,"133, avenue Pascal, Marseille",O-,Asthme,2019-06-22,Radiothérapie,Dr. Dupont,CHU de Lyon
+Blanc,Julie,1985-02-01,Homme,"71, avenue Pascal, Marseille",A+,Anémie,2017-08-17,Greffe,Dr. Martin,Hôpital Européen
+Petit,Antoine,2009-11-29,Femme,"81, rue Peron, Paris",B+,Dépression,2007-02-21,Radiothérapie,Dr. Bernard,Hôpital Saint-Louis
+Roux,Claire,1977-09-03,Homme,"167, rue Alix Roy, Paris",AB+,Cancer,2020-01-27,Rééducation,Dr. Bernard,Hôpital Saint-Louis
+Roux,Claire,1993-07-04,Homme,"29, rue Alix Roy, Nantes",AB+,Trouble bipolaire,2001-07-12,Thérapie,Dr. Martin,Hôpital Saint-Louis
+Moreau,Luc,1966-12-30,Homme,"23, avenue Pascal, Strasbourg",O+,Arthrite,2020-09-15,Greffe,Dr. Dupont,CHU de Lyon
+Dupont,Paul,1998-08-18,Femme,"108, rue Torres, Paris",AB-,Cancer,2019-09-17,Chirurgie,Dr. Bernard,Hôpital Européen
+Moreau,Pierre,1983-10-10,Femme,"162, rue Peron, Strasbourg",O+,Dépression,2007-03-20,Vaccination,Dr. Bernard,Hôpital Saint-Louis
+Moreau,Pierre,1977-07-18,Homme,"31, avenue Pascal, Montpellier",AB-,Dépression,2005-05-18,Vaccination,Dr. Moreau,CHU de Lyon
+Martin,Paul,1954-04-03,Homme,"105, avenue Pascal, Marseille",O-,Cancer,2021-07-30,Chirurgie,Dr. Martin,Hôpital Européen
+Petit,Pierre,1951-08-05,Femme,"45, chemin Humbert, Toulouse",AB-,Trouble bipolaire,2022-07-19,Rééducation,Dr. Martin,Hôpital Cochin
+Faure,Jean,1977-12-15,Femme,"30, rue Auguste De Sousa, Nantes",O+,Diabète,2010-09-24,Chirurgie,Dr. Durand,CHU de Lyon
+Dupont,Luc,2002-02-06,Femme,"56, rue Alix Roy, Montpellier",A-,Allergies,2008-07-17,Vaccination,Dr. Martin,Hôpital Européen
+Faure,Paul,1980-07-25,Femme,"33, rue Auguste De Sousa, Toulouse",AB+,Asthme,2013-12-01,Vaccination,Dr. Moreau,CHU de Lyon
+Blanc,Pierre,1993-03-19,Femme,"79, chemin Humbert, Nice",AB-,Hypertension,2019-06-26,Vaccination,Dr. Durand,Hôpital Saint-Louis
+Bernard,Marie,1993-12-01,Femme,"1, chemin Humbert, Nice",A+,Cancer,2022-07-09,Médication,Dr. Martin,Hôpital Européen
+Durand,Paul,1990-01-25,Femme,"112, chemin Humbert, Marseille",O-,Arthrite,2010-03-23,Suivi régulier,Dr. Moreau,Hôpital Saint-Louis
+Garnier,Julie,1976-08-30,Femme,"54, rue Alix Roy, Strasbourg",AB-,Diabète,2019-06-04,Chirurgie,Dr. Durand,Hôpital Européen
+Petit,Camille,2005-02-06,Homme,"26, rue Peron, Nice",O-,Anémie,2022-11-10,Greffe,Dr. Durand,Hôpital Cochin
+Petit,Antoine,1982-01-27,Femme,"154, rue Alix Roy, Nice",AB-,Hypertension,2000-10-26,Suivi régulier,Dr. Durand,Hôpital Cochin
+Bernard,Sophie,1973-11-26,Homme,"65, rue Auguste De Sousa, Lyon",A+,Maladie cardiaque,2000-01-24,Chirurgie,Dr. Dupont,Hôpital Européen
+Bernard,Pierre,1954-04-26,Femme,"81, rue Peron, Lyon",A+,Allergies,2007-07-05,Chirurgie,Dr. Dupont,Hôpital Saint-Louis
+Moreau,Antoine,1994-05-02,Homme,"18, rue Auguste De Sousa, Paris",AB-,Trouble bipolaire,2017-02-04,Dialyse,Dr. Durand,CHU de Lyon
+Martin,Antoine,1967-01-28,Homme,"100, chemin Humbert, Toulouse",B+,Arthrite,2020-08-29,Greffe,Dr. Durand,CHU de Lyon
+Blanc,Paul,1977-04-24,Homme,"66, avenue Pascal, Marseille",O-,Hypertension,2019-08-08,Vaccination,Dr. Dupont,Hôpital Européen

@@ -1,0 +1,51 @@
+nom TEXT,prenom TEXT,genre TEXT,type_bien TEXT,valeur_bien REAL,ville TEXT,dettes REAL,type_investissement TEXT,valeur_investissement REAL,revenu_locatif_annuel REAL
+Faure,Paul,Femme,Maison,102078.8,Nice,138983.99,Fonds communs,334412.15,48323.94
+Moreau,Luc,Homme,Appartement,540489.19,Nice,101235.12,Obligations,386890.41,33022.52
+Garnier,Antoine,Homme,Terrain,185693.44,Lyon,111898.31,Actions,104240.99,18835.59
+Petit,Sophie,Homme,Terrain,461765.54,Nice,91763.04,Actions,347467.72,24467.86
+Garnier,Sophie,Homme,Appartement,329071.2,Lyon,116889.17,Fonds communs,172376.21,30328.39
+Roux,Antoine,Homme,Terrain,775239.44,Nice,174757.64,Actions,397767.83,38753.81
+Durand,Luc,Homme,Appartement,657355.91,Lyon,148732.62,Obligations,139596.6,37015.97
+Durand,Jean,Homme,Terrain,52577.12,Lyon,103160.64,Obligations,314599.99,39025.79
+Martin,Pierre,Homme,Maison,239380.9,Nice,31002.75,Crypto-monnaies,322800.18,45392.54
+Dupont,Julie,Femme,Appartement,589040.42,Lyon,198752.61,Obligations,70528.2,10911.46
+Durand,Julie,Femme,Terrain,831366.67,Paris,132484.83,Obligations,173969.3,34215.03
+Moreau,Claire,Homme,Terrain,703703.5,Paris,4495.58,Fonds communs,89995.74,9504.49
+Blanc,Claire,Homme,Appartement,402602.4,Lyon,7307.14,Crypto-monnaies,456835.98,33519.49
+Moreau,Sophie,Femme,Appartement,137192.64,Lyon,199340.7,Actions,450917.69,9145.6
+Petit,Sophie,Homme,Maison,503786.48,Nice,144553.8,Actions,108010.22,30358.98
+Durand,Luc,Homme,Maison,452017.01,Paris,153539.68,Actions,491280.24,19450.85
+Dupont,Jean,Homme,Terrain,532686.02,Paris,136937.69,Actions,444283.56,18277.9
+Faure,Pierre,Femme,Terrain,929077.0,Paris,146258.82,Crypto-monnaies,415705.13,34046.31
+Faure,Pierre,Homme,Appartement,825679.69,Nice,148698.05,Actions,252870.48,11942.77
+Faure,Julie,Femme,Maison,840533.58,Nice,97990.23,Actions,409699.26,41784.12
+Moreau,Claire,Femme,Maison,620895.67,Nice,130245.57,Fonds communs,363816.54,40046.04
+Durand,Camille,Femme,Maison,955339.53,Lyon,23675.3,Obligations,339322.98,45482.41
+Faure,Paul,Homme,Terrain,606828.17,Lyon,79640.72,Obligations,287956.4,38227.41
+Blanc,Camille,Femme,Terrain,775833.48,Paris,44673.06,Actions,247923.55,42932.51
+Blanc,Sophie,Homme,Maison,353796.48,Nice,29142.18,Fonds communs,438010.1,13309.74
+Faure,Pierre,Homme,Maison,338912.61,Paris,68726.05,Actions,73867.74,30954.72
+Faure,Julie,Femme,Maison,412487.76,Paris,98841.42,Crypto-monnaies,253803.0,41749.4
+Garnier,Sophie,Homme,Terrain,509273.85,Lyon,183483.39,Actions,228459.01,14661.64
+Faure,Marie,Homme,Terrain,978133.08,Nice,152655.92,Actions,152767.45,32393.53
+Moreau,Claire,Femme,Appartement,209646.68,Lyon,169235.61,Obligations,157983.48,10289.19
+Martin,Antoine,Homme,Maison,549383.35,Nice,53721.4,Crypto-monnaies,214554.49,8349.05
+Garnier,Pierre,Homme,Terrain,535702.92,Nice,195957.29,Crypto-monnaies,122433.62,13527.5
+Roux,Antoine,Femme,Terrain,544513.94,Paris,4559.87,Fonds communs,414790.97,21909.7
+Dupont,Marie,Homme,Appartement,408382.33,Paris,40620.87,Fonds communs,139427.07,47566.93
+Garnier,Paul,Femme,Terrain,257274.67,Lyon,112335.91,Actions,347823.27,28181.22
+Bernard,Pierre,Homme,Appartement,294100.3,Paris,144944.54,Fonds communs,303039.94,23521.01
+Martin,Antoine,Homme,Maison,598503.42,Lyon,98963.44,Fonds communs,227099.12,22886.96
+Bernard,Camille,Femme,Appartement,198346.38,Paris,68807.54,Obligations,370917.56,13004.92
+Bernard,Julie,Femme,Appartement,500466.3,Lyon,173046.14,Fonds communs,68286.23,12912.76
+Bernard,Luc,Homme,Terrain,68002.04,Lyon,150836.41,Fonds communs,335066.47,24936.64
+Durand,Pierre,Homme,Appartement,430026.71,Nice,82671.58,Obligations,105303.78,12262.48
+Garnier,Luc,Femme,Appartement,75540.33,Paris,199140.38,Obligations,375320.51,36976.83
+Faure,Claire,Homme,Appartement,828400.19,Paris,132193.61,Actions,22175.97,7987.59
+Blanc,Claire,Femme,Terrain,460146.18,Lyon,32183.39,Obligations,351512.69,39376.04
+Faure,Marie,Femme,Maison,467633.1,Nice,98604.86,Crypto-monnaies,80054.81,17042.41
+Martin,Luc,Homme,Terrain,709960.75,Lyon,195791.41,Crypto-monnaies,486113.22,8470.21
+Durand,Julie,Femme,Maison,691178.36,Nice,199369.04,Actions,196546.14,21502.32
+Bernard,Julie,Femme,Appartement,871642.73,Nice,82588.42,Crypto-monnaies,388530.26,19012.88
+Bernard,Sophie,Homme,Appartement,724878.36,Lyon,43981.76,Obligations,272633.44,7213.41
+Roux,Paul,Homme,Maison,50840.36,Nice,64770.36,Actions,59118.77,46282.48

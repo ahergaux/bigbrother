@@ -22,12 +22,9 @@ CREATE TABLE IF NOT EXISTS PERSONNE (
 CREATE TABLE IF NOT EXISTS ADRESSE_POSTALE(
     id SERIAL PRIMARY KEY,
     id_personne INTEGER ,
-    adresse_postale INTEGER ,
-    debut TIMESTAMP ,
-    fin TIMESTAMP,
+    id_adresse_postale INTEGER ,
     CONSTRAINT fk_id_personne_adresse_postale FOREIGN KEY (id_personne) REFERENCES PERSONNE(id),
-    CONSTRAINT fk_adresse_postale_adresse_postale FOREIGN KEY (adresse_postale) REFERENCES ADRESSE__REF(id),
-    CHECK (fin>=debut)
+    CONSTRAINT fk_adresse_postale_adresse_postale FOREIGN KEY (id_adresse_postale) REFERENCES ADRESSE__REF(id)
 );
 
 
@@ -50,35 +47,7 @@ CREATE TABLE IF NOT EXISTS ADRESSE_MAIL(
 CREATE TABLE IF NOT EXISTS RESEAUX(
     id SERIAL PRIMARY KEY,
     id_personne INTEGER ,
-    reseaux VARCHAR(30),
-    alias VARCHAR(30),
+    id_reseaux INTEGER,
     CONSTRAINT fk_id_personne_reseaux_personne FOREIGN KEY (id_personne) REFERENCES PERSONNE(id)
 );
 
-CREATE TABLE IF NOT EXISTS GEOLOC(
-    id SERIAL PRIMARY KEY,
-    id_personne INTEGER ,
-    geoloc INTEGER ,
-    date TIMESTAMP ,
-    CONSTRAINT fk_adresse_geoloc FOREIGN KEY (geoloc) REFERENCES ADRESSE__REF(id),
-    CONSTRAINT fk_id_personne_geoloc FOREIGN KEY (id_personne) REFERENCES PERSONNE(id)
-);
-
-CREATE TABLE IF NOT EXISTS SITUATION_MATRIMONIALE(
-    id SERIAL PRIMARY KEY,
-    id_personne INTEGER ,
-    situation_matrimoniale INTEGER ,
-    debut TIMESTAMP ,
-    fin TIMESTAMP,
-    CONSTRAINT fk_id_personne_situation_matrimoniale FOREIGN KEY (id_personne) REFERENCES PERSONNE(id),
-    CHECK (fin>=debut)
-);
-
-
-CREATE TABLE IF NOT EXISTS RELATION(
-    id_personne1 INTEGER ,
-    id_personne2 INTEGER ,
-    type_relation INTEGER ,
-    CONSTRAINT fk_id_personne1_relation FOREIGN KEY (id_personne1) REFERENCES PERSONNE(id),
-    CONSTRAINT fk_id_personne2_relation FOREIGN KEY (id_personne2) REFERENCES PERSONNE(id)
-);
