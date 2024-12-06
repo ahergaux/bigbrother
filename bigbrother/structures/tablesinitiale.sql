@@ -39,8 +39,10 @@ CREATE TABLE IF NOT EXISTS NUMERO_TEL(
 CREATE TABLE IF NOT EXISTS ADRESSE_MAIL(
     id SERIAL PRIMARY KEY,
     id_personne INTEGER ,
-    id_adresse_mail VARCHAR(50) ,
-    CONSTRAINT fk_id_personne_adresse_mail FOREIGN KEY (id_personne) REFERENCES PERSONNE(id)
+    id_adresse_mail INTEGER ,
+    CONSTRAINT fk_id_personne_adresse_mail FOREIGN KEY (id_personne) REFERENCES PERSONNE(id),
+    CONSTRAINT fk_id_adresse_mail_adresse_mail FOREIGN KEY (id_personne) REFERENCES ADRESSE_MAIL__REF(id)
+
 );
 
 

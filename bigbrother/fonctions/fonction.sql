@@ -408,7 +408,7 @@ CREATE OR REPLACE FUNCTION normalize_table_content(nom_table TEXT) RETURNS VOID 
             query := FORMAT(
                 'UPDATE %I SET %I = LOWER(REPLACE(TRANSLATE(UNACCENT(REPLACE(%I, ''-'', ''_'')), 
                         ''ÀÂÄÇÉÈÊËÌÎÏÒÔÖÙÛÜàâäçéèêëìîïòôöùûü '', 
-                        ''AAACEEEEIIIOOOUUUaaaceeeeiiiooouuu''), '' '', ''_'')) WHERE %I IS NOT NULL;',
+                        ''AAACEEEEIIIOOOUUUaaaceeeeiiiooouuu_''), '' '', ''_'')) WHERE %I IS NOT NULL;',
                 nom_table, c_n, c_n, c_n
             );
 

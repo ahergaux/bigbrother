@@ -62,8 +62,8 @@ num_employe INTEGER,nom TEXT,prenom TEXT,genre TEXT,date_naissance DATE,adresse 
 4435,Roussel,Simone,Femme,2000-07-09,"97, rue de Couturier, De Oliveiraboeuf",Hebert,Marketing Manager,90161,2016-02-13,Temps partiel
 4663,Lacroix,Susan,Femme,1970-01-31,"150, rue de Hubert, Roussel-la-Forêt",Caron SA,Data Scientist,30963,2019-04-07,Freelance
 8749,Payet,Maryse,Femme,1989-10-26,"77, chemin de Joseph, Gros-sur-Dupré",Brun S.A.R.L.,Data Scientist,93142,2023-08-30,Temps partiel
-2397,Bailly,Agathe,Femme,1967-07-25,"67, rue André Delaunay, Saint Agathe",Godard,Sales Executive,54688,2017-09-25,Temps plein
-3244,Lelièvre,Monique,Femme,2003-09-21,"170, chemin de Humbert, Lemaire-sur-Mer",Rodrigues Richard et Fils,Marketing Manager,119228,2017-04-24,Temps plein
+2397,Hoareau,Gabriel,Femme,1967-07-25,"67, rue André Delaunay, Saint Agathe",Renault,Sales Executive,54688,2017-09-25,Temps plein
+3244,Lelièvre,Monique,Femme,2003-09-21,"170, chemin de Humbert, Lemaire-sur-Mer",Renault,Marketing Manager,119228,2017-04-24,Temps plein
 9249,Lebon,Simone,Femme,2004-04-29,"67, chemin Arnaud, PeronBourg",Bigot Lebon S.A.,Accountant,83031,2015-04-27,Temps plein
 1698,Blanchet,Bertrand,Homme,1981-12-26,"88, boulevard de Delattre, Sainte OdetteVille",Voisin S.A.,HR Specialist,119957,2017-09-18,Temps partiel
 3394,Rey,Pierre,Femme,1964-07-27,"44, rue Stéphanie Pichon, Perrier",Brun S.A.R.L.,Product Manager,53741,2017-04-11,Temps partiel
@@ -90,7 +90,7 @@ num_employe INTEGER,nom TEXT,prenom TEXT,genre TEXT,date_naissance DATE,adresse 
 1944,Joubert,Margot,Homme,1999-01-31,"108, avenue François, Nguyen",Hebert,Data Scientist,97054,2019-10-18,Temps plein
 4234,Leblanc,Susanne,Homme,1992-11-25,"28, boulevard Raymond Olivier, Picard",Caron SA,Customer Support,56037,2023-03-18,Temps partiel
 1729,Lagarde,Adèle,Homme,1999-02-16,"92, rue de Grégoire, Saint Victoire",Le Goff S.A.,Accountant,68712,2020-12-27,Freelance
-7066,Payet,Alphonse,Homme,1980-02-24,"177, boulevard Martin Guyot, Moreau",Bigot Lebon S.A.,Customer Support,73332,2020-04-25,Temps plein
+7066,Faure,Pierre,Homme,1966-11-11,"177, boulevard Martin Guyot, Moreau",Bigot Lebon S.A.,Customer Support,73332,2020-04-25,Temps plein
 5780,Hernandez,Raymond,Homme,1982-01-15,"147, rue de Boulanger, Sainte ZoéBourg",Benoit SA,Customer Support,49548,2022-10-31,Freelance
 7395,Hervé,William,Homme,1961-09-19,"66, chemin René Jacquot, Thibault",Benoit SA,HR Specialist,89867,2017-10-20,Temps partiel
 6076,Bouvet,Gabrielle,Femme,1959-04-08,"13, avenue de Moreau, Bruneau-sur-Blanchet",Hebert,Data Scientist,52898,2018-12-23,Temps partiel
